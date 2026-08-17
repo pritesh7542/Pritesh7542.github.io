@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+<style>
+html { scroll-behavior: smooth; }
+body { margin: 0; background: #F7F4EE; font-family: 'DM Sans', system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+a { color: #0B1938; text-decoration: none; }
+a:hover { color: #C9A45C; }
+* { box-sizing: border-box; }
+</style>
+</helmet>
+<header style="position: fixed; top: 0; left: 0; right: 0; z-index: 200; background: {{ navBg }}; border-bottom: 1px solid {{ navBorder }}; backdrop-filter: blur(14px); transition: background .5s ease, border-color .5s ease;">
+  <div style="max-width: 1440px; margin: 0 auto; padding: 0 clamp(20px, 4vw, 56px); height: clamp(66px, 7vw, 88px); display: flex; align-items: center; justify-content: space-between; gap: 32px;">
+    <a href="index.html" style="display: flex; align-items: center; gap: 14px; color: {{ fg }};">
+      <img src="{{ markSrc }}" alt="SPV Legal Advocates" style="height: clamp(34px, 3.4vw, 44px); width: auto; display: block;" />
+      <span style="display: flex; flex-direction: column; gap: 4px;">
+        <span style="font-family: 'Cormorant Garamond', serif; font-size: clamp(17px, 2vw, 21px); font-weight: 500; letter-spacing: 0.13em; line-height: 1;">SPV LEGAL ADVOCATES</span>
+        <span style="font-size: 8.5px; letter-spacing: 0.34em; color: #C9A45C; line-height: 1;">LITIGATION &amp; ADVISORY</span>
+      </span>
+    </a>
+
+    <nav style="display: {{ deskDisplay }}; align-items: center; gap: clamp(18px, 2.4vw, 34px);">
+      <a href="about.html" style="font-size: 10.5px; letter-spacing: 0.17em; color: {{ cAbout }}; padding: 6px 0; border-bottom: 1px solid {{ uAbout }}; transition: color .3s ease, border-color .3s ease;" style-hover="color: #C9A45C; border-bottom-color: #C9A45C;">ABOUT</a>
+      <a href="practice-areas.html" style="font-size: 10.5px; letter-spacing: 0.17em; color: {{ cPractice }}; padding: 6px 0; border-bottom: 1px solid {{ uPractice }}; transition: color .3s ease, border-color .3s ease;" style-hover="color: #C9A45C; border-bottom-color: #C9A45C;">PRACTICE AREAS</a>
+      <a href="people.html" style="font-size: 10.5px; letter-spacing: 0.17em; color: {{ cPeople }}; padding: 6px 0; border-bottom: 1px solid {{ uPeople }}; transition: color .3s ease, border-color .3s ease;" style-hover="color: #C9A45C; border-bottom-color: #C9A45C;">PEOPLE</a>
+      <a href="publications.html" style="font-size: 10.5px; letter-spacing: 0.17em; color: {{ cPubs }}; padding: 6px 0; border-bottom: 1px solid {{ uPubs }}; transition: color .3s ease, border-color .3s ease;" style-hover="color: #C9A45C; border-bottom-color: #C9A45C;">PUBLICATIONS</a>
+      <a href="contact.html" style="font-size: 10.5px; letter-spacing: 0.17em; color: {{ cContact }}; padding: 6px 0; border-bottom: 1px solid {{ uContact }}; transition: color .3s ease, border-color .3s ease;" style-hover="color: #C9A45C; border-bottom-color: #C9A45C;">CONTACT</a>
+      <a href="careers.html" style="font-size: 10.5px; letter-spacing: 0.17em; color: {{ cCareers }}; padding: 6px 0; border-bottom: 1px solid {{ uCareers }}; transition: color .3s ease, border-color .3s ease;" style-hover="color: #C9A45C; border-bottom-color: #C9A45C;">CAREERS</a>
+      <a href="contact.html" style="font-size: 10.5px; letter-spacing: 0.17em; color: #0B1938; background: #C9A45C; padding: 13px 22px; margin-left: 6px; transition: background .3s ease, transform .3s ease;" style-hover="background: #D8B876;">CONSULT US</a>
+    </nav>
+
+    <button type="button" aria-label="Open menu" onClick="{{ toggle }}" style="display: {{ burgerDisplay }}; flex-direction: column; justify-content: center; gap: 6px; width: 44px; height: 44px; background: none; border: none; cursor: pointer; padding: 0; align-items: flex-end;">
+      <span style="display: block; width: 26px; height: 1px; background: {{ fg }};"></span>
+      <span style="display: block; width: 18px; height: 1px; background: {{ fg }};"></span>
+    </button>
+  </div>
+</header>
+
+<div style="position: fixed; inset: 0; z-index: 300; background: #08142F; display: {{ menuDisplay }}; flex-direction: column; padding: clamp(20px, 5vw, 40px);">
+  <div style="display: flex; align-items: center; justify-content: space-between;">
+    <span style="display: flex; align-items: center; gap: 12px;">
+      <img src="images/mark-light.png" alt="" style="height: 34px; width: auto; display: block;" />
+      <span style="font-family: 'Cormorant Garamond', serif; font-size: 18px; letter-spacing: 0.13em; color: #F7F4EE;">SPV LEGAL ADVOCATES</span>
+    </span>
+    <button type="button" aria-label="Close menu" onClick="{{ toggle }}" style="width: 44px; height: 44px; background: none; border: none; color: #F7F4EE; font-size: 26px; cursor: pointer; line-height: 1;">&times;</button>
+  </div>
+  <nav style="margin-top: auto; margin-bottom: auto; display: flex; flex-direction: column; gap: 4px;">
+    <a href="about.html" style="font-family: 'Cormorant Garamond', serif; font-size: clamp(30px, 9vw, 44px); font-weight: 300; color: #F7F4EE; padding: 10px 0; border-bottom: 1px solid rgba(247,244,238,0.1);">About</a>
+    <a href="practice-areas.html" style="font-family: 'Cormorant Garamond', serif; font-size: clamp(30px, 9vw, 44px); font-weight: 300; color: #F7F4EE; padding: 10px 0; border-bottom: 1px solid rgba(247,244,238,0.1);">Practice Areas</a>
+    <a href="people.html" style="font-family: 'Cormorant Garamond', serif; font-size: clamp(30px, 9vw, 44px); font-weight: 300; color: #F7F4EE; padding: 10px 0; border-bottom: 1px solid rgba(247,244,238,0.1);">People</a>
+    <a href="publications.html" style="font-family: 'Cormorant Garamond', serif; font-size: clamp(30px, 9vw, 44px); font-weight: 300; color: #F7F4EE; padding: 10px 0; border-bottom: 1px solid rgba(247,244,238,0.1);">Publications</a>
+    <a href="contact.html" style="font-family: 'Cormorant Garamond', serif; font-size: clamp(30px, 9vw, 44px); font-weight: 300; color: #F7F4EE; padding: 10px 0; border-bottom: 1px solid rgba(247,244,238,0.1);">Contact</a>
+    <a href="careers.html" style="font-family: 'Cormorant Garamond', serif; font-size: clamp(30px, 9vw, 44px); font-weight: 300; color: #F7F4EE; padding: 10px 0;">Careers</a>
+  </nav>
+  <a href="contact.html" style="font-size: 11px; letter-spacing: 0.2em; color: #0B1938; background: #C9A45C; padding: 18px 24px; text-align: center;">CONSULT US</a>
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1440,&quot;height&quot;:120},&quot;theme&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;dark&quot;,&quot;light&quot;],&quot;default&quot;:&quot;dark&quot;,&quot;tsType&quot;:&quot;'dark' | 'light'&quot;},&quot;active&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;&quot;,&quot;about&quot;,&quot;practice&quot;,&quot;people&quot;,&quot;publications&quot;,&quot;contact&quot;,&quot;careers&quot;],&quot;default&quot;:&quot;&quot;,&quot;tsType&quot;:&quot;string&quot;}}">
+class Component extends DCLogic {
+  state = { scrolled: false, open: false, mobile: false };
+
+  componentDidMount() {
+    this._scroll = () => {
+      const s = window.scrollY > 40;
+      if (s !== this.state.scrolled) this.setState({ scrolled: s });
+    };
+    this._resize = () => {
+      const m = window.innerWidth < 1080;
+      if (m !== this.state.mobile) this.setState({ mobile: m });
+    };
+    window.addEventListener('scroll', this._scroll, { passive: true });
+    window.addEventListener('resize', this._resize);
+    this._scroll(); this._resize();
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this._scroll);
+    window.removeEventListener('resize', this._resize);
+  }
+
+  renderVals() {
+    const theme = this.props.theme ?? 'dark';
+    const onDark = theme === 'dark' && !this.state.scrolled;
+    const active = this.props.active ?? '';
+    const fg = onDark ? '#F7F4EE' : '#0B1938';
+    const c = (k) => (active === k ? '#C9A45C' : fg);
+    const u = (k) => (active === k ? '#C9A45C' : 'transparent');
+    return {
+      fg,
+      markSrc: onDark ? 'images/mark-light.png' : 'images/mark-navy.png',
+      navBg: onDark ? 'rgba(11,25,56,0)' : 'rgba(255,255,255,0.93)',
+      navBorder: onDark ? 'rgba(201,164,92,0.16)' : '#D9DDE5',
+      deskDisplay: this.state.mobile ? 'none' : 'flex',
+      burgerDisplay: this.state.mobile ? 'flex' : 'none',
+      menuDisplay: this.state.open ? 'flex' : 'none',
+      toggle: () => this.setState(s => ({ open: !s.open })),
+      cAbout: c('about'), uAbout: u('about'),
+      cPractice: c('practice'), uPractice: u('practice'),
+      cPeople: c('people'), uPeople: u('people'),
+      cPubs: c('publications'), uPubs: u('publications'),
+      cContact: c('contact'), uContact: u('contact'),
+      cCareers: c('careers'), uCareers: u('careers')
+    };
+  }
+}
+
+</script>
+</body>
+</html>

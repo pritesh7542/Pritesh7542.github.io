@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<title>Contact | SPV Legal Advocates</title>
+<meta name="description" content="Contact SPV Legal Advocates — principal office Mumbai, registered office Thane. contact@spvlegal.in · +91 88284 81323" />
+<link rel="canonical" href="https://www.spvlegal.in/contact.html" />
+<meta property="og:image" content="https://www.spvlegal.in/og-image.png" />
+<meta property="og:url" content="https://www.spvlegal.in/contact.html" />
+<meta name="twitter:card" content="summary_large_image" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+<style>
+html { scroll-behavior: smooth; }
+body { margin: 0; background: #F7F4EE; font-family: 'DM Sans', system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+a { color: #0B1938; text-decoration: none; }
+a:hover { color: #C9A45C; }
+* { box-sizing: border-box; }
+@keyframes spvRise { from { opacity: 0; transform: translateY(26px); } to { opacity: 1; transform: none; } }
+</style>
+</helmet>
+
+<dc-import name="Nav" theme="dark" active="contact" hint-size="100%,88px"></dc-import>
+<dc-import name="Disclaimer" hint-size="0px,0px"></dc-import>
+
+<section style="position: relative; background: #0B1938; overflow: hidden; padding: clamp(130px, 20vh, 200px) clamp(20px, 4vw, 56px) clamp(48px, 6vw, 80px);">
+  <div style="position: absolute; inset: 0; background: radial-gradient(110% 90% at 80% 0%, rgba(201,164,92,0.13), rgba(11,25,56,0) 62%);"></div>
+  <div style="position: relative; max-width: 1440px; margin: 0 auto;">
+    <div style="font-size: 10px; letter-spacing: 0.3em; color: #C9A45C; margin-bottom: 26px; animation: spvRise .8s ease both;">CONTACT</div>
+    <h1 style="font-family: 'Cormorant Garamond', serif; font-weight: 300; font-size: clamp(40px, 6.4vw, 86px); line-height: 1.03; letter-spacing: -0.015em; color: #F7F4EE; margin: 0; animation: spvRise .9s ease both; animation-delay: .08s;">Begin a Conversation.</h1>
+    <p style="font-size: clamp(15px, 1.3vw, 18px); line-height: 1.85; color: rgba(247,244,238,0.64); max-width: 60ch; margin: clamp(24px, 3vw, 36px) 0 0; text-wrap: pretty; animation: spvRise .9s ease both; animation-delay: .16s;">Share your matter with us and we will revert promptly. All enquiries are treated in strict confidence.</p>
+  </div>
+</section>
+
+<section style="background: #FFFFFF; padding: clamp(56px, 8vw, 116px) clamp(20px, 4vw, 56px);">
+  <div style="max-width: 1440px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: clamp(44px, 6vw, 96px); align-items: start;">
+    <div data-reveal="">
+      <div style="font-size: 10px; letter-spacing: 0.28em; color: #C9A45C; margin-bottom: 26px;">ENQUIRY FORM</div>
+      <sc-if value="{{ sent }}" hint-placeholder-val="{{ false }}">
+        <div style="border: 1px solid #C9A45C; padding: clamp(28px, 4vw, 48px);">
+          <h2 style="font-family: 'Cormorant Garamond', serif; font-weight: 400; font-size: 30px; color: #0B1938; margin: 0;">Thank you.</h2>
+          <p style="font-size: 15px; line-height: 1.9; color: #667085; margin: 16px 0 0;">Your enquiry has been recorded. A member of the firm will revert to you shortly at the contact details provided.</p>
+        </div>
+      </sc-if>
+      <sc-if value="{{ notSent }}" hint-placeholder-val="{{ true }}">
+      <form onSubmit="{{ submit }}" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 30px 28px;">
+        <input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" aria-hidden="true" style="display: none;" />
+        <label style="display: flex; flex-direction: column; gap: 10px;">
+          <span style="font-size: 9.5px; letter-spacing: 0.22em; color: #667085;">FIRST NAME</span>
+          <input type="text" name="first" required="" style="font-family: 'DM Sans', sans-serif; font-size: 15px; color: #0B1938; background: transparent; border: none; border-bottom: 1px solid #D9DDE5; padding: 10px 0; outline: none; transition: border-color .3s ease;" style-focus="border-bottom-color: #C9A45C;" />
+        </label>
+        <label style="display: flex; flex-direction: column; gap: 10px;">
+          <span style="font-size: 9.5px; letter-spacing: 0.22em; color: #667085;">LAST NAME</span>
+          <input type="text" name="last" required="" style="font-family: 'DM Sans', sans-serif; font-size: 15px; color: #0B1938; background: transparent; border: none; border-bottom: 1px solid #D9DDE5; padding: 10px 0; outline: none; transition: border-color .3s ease;" style-focus="border-bottom-color: #C9A45C;" />
+        </label>
+        <label style="display: flex; flex-direction: column; gap: 10px;">
+          <span style="font-size: 9.5px; letter-spacing: 0.22em; color: #667085;">EMAIL ADDRESS</span>
+          <input type="email" name="email" required="" style="font-family: 'DM Sans', sans-serif; font-size: 15px; color: #0B1938; background: transparent; border: none; border-bottom: 1px solid #D9DDE5; padding: 10px 0; outline: none; transition: border-color .3s ease;" style-focus="border-bottom-color: #C9A45C;" />
+        </label>
+        <label style="display: flex; flex-direction: column; gap: 10px;">
+          <span style="font-size: 9.5px; letter-spacing: 0.22em; color: #667085;">PHONE NUMBER</span>
+          <input type="tel" name="phone" style="font-family: 'DM Sans', sans-serif; font-size: 15px; color: #0B1938; background: transparent; border: none; border-bottom: 1px solid #D9DDE5; padding: 10px 0; outline: none; transition: border-color .3s ease;" style-focus="border-bottom-color: #C9A45C;" />
+        </label>
+        <label style="display: flex; flex-direction: column; gap: 10px; grid-column: 1 / -1;">
+          <span style="font-size: 9.5px; letter-spacing: 0.22em; color: #667085;">AREA OF ENQUIRY</span>
+          <select name="area" style="font-family: 'DM Sans', sans-serif; font-size: 15px; color: #0B1938; background: transparent; border: none; border-bottom: 1px solid #D9DDE5; padding: 10px 0; outline: none; appearance: none; transition: border-color .3s ease;" style-focus="border-bottom-color: #C9A45C;">
+            <option>Indirect Tax Litigation</option>
+            <option>Direct Tax Litigation</option>
+            <option>Tax &amp; Regulatory Advisory</option>
+            <option>Arbitration &amp; Civil Litigation</option>
+            <option>Other</option>
+          </select>
+        </label>
+        <label style="display: flex; flex-direction: column; gap: 10px; grid-column: 1 / -1;">
+          <span style="font-size: 9.5px; letter-spacing: 0.22em; color: #667085;">BRIEF DESCRIPTION OF MATTER</span>
+          <textarea name="matter" rows="5" style="font-family: 'DM Sans', sans-serif; font-size: 15px; line-height: 1.7; color: #0B1938; background: transparent; border: 1px solid #D9DDE5; padding: 14px; outline: none; resize: vertical; transition: border-color .3s ease;" style-focus="border-color: #C9A45C;"></textarea>
+        </label>
+        <div style="grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 20px; align-items: center;">
+          <button type="submit" disabled="{{ sending }}" style="font-family: 'DM Sans', sans-serif; font-size: 10.5px; letter-spacing: 0.2em; color: #0B1938; background: #C9A45C; border: none; padding: 20px 38px; cursor: pointer; transition: background .35s ease;" style-hover="background: #DFC088;">{{ buttonLabel }}</button>
+          <span style="font-size: 12.5px; color: #667085;">We typically revert within one working day.</span>
+        </div>
+        <sc-if value="{{ hasError }}" hint-placeholder-val="{{ false }}">
+          <p style="grid-column: 1 / -1; font-size: 13px; line-height: 1.7; color: #8A3B3B; margin: 0;">{{ error }}</p>
+        </sc-if>
+      </form>
+      </sc-if>
+    </div>
+
+    <div data-reveal="">
+      <div style="font-size: 10px; letter-spacing: 0.28em; color: #C9A45C; margin-bottom: 26px;">OUR OFFICES</div>
+      <div style="border-top: 1px solid #D9DDE5; padding: 30px 0;">
+        <div style="font-size: 9.5px; letter-spacing: 0.22em; color: #667085;">PRINCIPAL OFFICE</div>
+        <h3 style="font-family: 'Cormorant Garamond', serif; font-weight: 400; font-size: 32px; color: #0B1938; margin: 12px 0 16px;">Mumbai</h3>
+        <p style="font-size: 15px; line-height: 1.9; color: #4A5568; margin: 0;">201, Haresh Building, Next to JK Shah Classes,<br />Old Nagardas Road, Andheri (East),<br />Mumbai – 400069</p>
+      </div>
+      <div style="border-top: 1px solid #D9DDE5; padding: 30px 0;">
+        <div style="font-size: 9.5px; letter-spacing: 0.22em; color: #667085;">REGISTERED OFFICE</div>
+        <h3 style="font-family: 'Cormorant Garamond', serif; font-weight: 400; font-size: 32px; color: #0B1938; margin: 12px 0 16px;">Thane</h3>
+        <p style="font-size: 15px; line-height: 1.9; color: #4A5568; margin: 0;">F/101, Gaurav Galaxy Phase–1,<br />Opposite Nityanand Nagar, Mira Road (East),<br />Thane – 401107</p>
+      </div>
+      <div style="border-top: 1px solid #D9DDE5; border-bottom: 1px solid #D9DDE5; padding: 30px 0; display: flex; flex-wrap: wrap; gap: 26px 60px;">
+        <div>
+          <div style="font-size: 9.5px; letter-spacing: 0.22em; color: #667085; margin-bottom: 12px;">EMAIL</div>
+          <a href="mailto:contact@spvlegal.in" style="font-family: 'Cormorant Garamond', serif; font-size: 22px; color: #0B1938;" style-hover="color: #C9A45C;">contact@spvlegal.in</a>
+        </div>
+        <div>
+          <div style="font-size: 9.5px; letter-spacing: 0.22em; color: #667085; margin-bottom: 12px;">TELEPHONE</div>
+          <a href="tel:+918828481323" style="font-family: 'Cormorant Garamond', serif; font-size: 22px; color: #0B1938;" style-hover="color: #C9A45C;">+91 88284 81323</a>
+        </div>
+      </div>
+      <div style="padding-top: 30px;">
+        <div style="font-size: 9.5px; letter-spacing: 0.22em; color: #667085; margin-bottom: 18px;">ASSOCIATE PRESENCE</div>
+        <div style="display: flex; flex-wrap: wrap; gap: 12px 20px; align-items: center;">
+          <span style="font-family: 'Cormorant Garamond', serif; font-size: 20px; color: #0B1938;">Mumbai</span>
+          <span style="color: #C9A45C; font-size: 10px;">◆</span>
+          <span style="font-family: 'Cormorant Garamond', serif; font-size: 20px; color: #0B1938;">Thane</span>
+          <span style="color: #C9A45C; font-size: 10px;">◆</span>
+          <span style="font-family: 'Cormorant Garamond', serif; font-size: 20px; color: #0B1938;">Jaipur</span>
+          <span style="color: #C9A45C; font-size: 10px;">◆</span>
+          <span style="font-family: 'Cormorant Garamond', serif; font-size: 20px; color: #0B1938;">Delhi</span>
+          <span style="color: #C9A45C; font-size: 10px;">◆</span>
+          <span style="font-family: 'Cormorant Garamond', serif; font-size: 20px; color: #0B1938;">Bengaluru</span>
+          <span style="color: #C9A45C; font-size: 10px;">◆</span>
+          <span style="font-family: 'Cormorant Garamond', serif; font-size: 20px; color: #0B1938;">Kolkata</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<dc-import name="Footer" hint-size="100%,480px"></dc-import>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+// Paste the Web3Forms access key from web3forms.com (free, delivers to contact@spvlegal.in).
+// Until it is set, the form falls back to opening the visitor's email client.
+const ACCESS_KEY = '58499d1f-e7cd-48c4-8ec6-3506ab864821';
+
+class Component extends DCLogic {
+  state = { sent: false, sending: false, error: '' };
+  componentDidMount() {
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((e) => {
+        if (e.isIntersecting) { e.target.style.opacity = '1'; e.target.style.transform = 'none'; io.unobserve(e.target); }
+      });
+    }, { threshold: 0.08, rootMargin: '0px 0px -6% 0px' });
+    this._t = setTimeout(() => {
+      document.querySelectorAll('[data-reveal]').forEach((el) => {
+        el.style.transition = 'opacity .9s ease, transform .9s cubic-bezier(.2,.7,.2,1)';
+        if (el.getBoundingClientRect().top < window.innerHeight * 0.94) return;
+        el.style.opacity = '0';
+        el.style.transform = 'translateY(24px)';
+        io.observe(el);
+      });
+    }, 120);
+  }
+  componentWillUnmount() { clearTimeout(this._t); }
+  renderVals() {
+    return {
+      sent: this.state.sent,
+      notSent: !this.state.sent,
+      sending: this.state.sending,
+      buttonLabel: this.state.sending ? 'SENDING…' : 'SEND ENQUIRY',
+      error: this.state.error,
+      hasError: !!this.state.error,
+      submit: async (e) => {
+        e.preventDefault();
+        const form = e.target;
+        const data = new FormData(form);
+        if (!ACCESS_KEY) {
+          const body = ['Name: ' + data.get('first') + ' ' + data.get('last'), 'Email: ' + data.get('email'), 'Phone: ' + (data.get('phone') || '—'), 'Area of enquiry: ' + data.get('area'), '', data.get('matter') || ''].join('\n');
+          window.location.href = 'mailto:contact@spvlegal.in?subject=' + encodeURIComponent('Website enquiry — ' + data.get('area')) + '&body=' + encodeURIComponent(body);
+          this.setState({ sent: true });
+          return;
+        }
+        this.setState({ sending: true, error: '' });
+        data.append('access_key', ACCESS_KEY);
+        data.append('subject', 'Website enquiry — ' + data.get('area'));
+        data.append('from_name', 'SPV Legal Advocates website');
+        try {
+          const res = await fetch('https://api.web3forms.com/submit', { method: 'POST', body: data });
+          const json = await res.json();
+          if (json.success) this.setState({ sent: true, sending: false });
+          else this.setState({ sending: false, error: 'We could not send your enquiry. Please email contact@spvlegal.in directly.' });
+        } catch (err) {
+          this.setState({ sending: false, error: 'We could not send your enquiry. Please email contact@spvlegal.in directly.' });
+        }
+      }
+    };
+  }
+}
+
+</script>
+</body>
+</html>

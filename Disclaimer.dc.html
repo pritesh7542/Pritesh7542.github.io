@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<div style="{{ overlayStyle }}">
+  <div role="dialog" aria-modal="true" aria-labelledby="spv-disclaimer-title" style="width: min(480px, 100%); max-height: 82vh; display: flex; flex-direction: column; background: #F7F4EE; box-shadow: 0 30px 70px rgba(8,20,47,0.4);">
+    <div style="background: #0B1938; padding: 16px 26px; border-bottom: 2px solid #C9A45C;">
+      <h2 id="spv-disclaimer-title" style="font-family: 'Cormorant Garamond', serif; font-weight: 400; font-size: 22px; color: #F7F4EE; margin: 0; letter-spacing: 0.01em;">Disclaimer</h2>
+    </div>
+
+    <div style="padding: 22px 26px; overflow-y: auto;">
+      <p style="font-size: 13px; line-height: 1.75; color: #35405A; margin: 0; text-wrap: pretty; text-align: justify">The rules of the Bar Council of India prohibit law firms from advertising and soliciting work through communication in the public domain. This website is meant solely for the purpose of information and not for the purpose of advertising. SPV Legal Advocates does not intend to solicit clients through this website. We do not take responsibility for decisions taken by the reader based solely on the information provided in the website. By clicking on ‘ACCEPT’, the visitor acknowledges that the information provided in the website (a) does not amount to advertising or solicitation and (b) is meant only for his/her understanding about our activities and who we are.</p>
+      <div style="height: 1px; background: #D9DDE5; margin: 18px 0;"></div>
+      <p style="font-size: 11.5px; line-height: 1.7; color: #667085; margin: 0;">By continuing to use this site you consent to the use of cookies on your device as described in our Cookie Policy.</p>
+    </div>
+
+    <div style="background: #FFFFFF; border-top: 1px solid #D9DDE5; padding: 16px 26px; display: flex; flex-wrap: wrap; gap: 10px; justify-content: flex-end;">
+      <button type="button" onClick="{{ decline }}" style="font-family: 'DM Sans', sans-serif; font-size: 9.5px; letter-spacing: 0.18em; color: #0B1938; background: transparent; border: 1px solid #D9DDE5; padding: 13px 24px; cursor: pointer; transition: border-color .3s ease, color .3s ease;" style-hover="border-color: #0B1938;">DECLINE</button>
+      <button type="button" onClick="{{ accept }}" style="font-family: 'DM Sans', sans-serif; font-size: 9.5px; letter-spacing: 0.18em; color: #F7F4EE; background: #0B1938; border: 1px solid #0B1938; padding: 13px 30px; cursor: pointer; transition: background .3s ease;" style-hover="background: #08142F;">ACCEPT</button>
+    </div>
+  </div>
+</div>
+
+<div style="{{ declinedStyle }}">
+  <div style="max-width: 520px; text-align: center;">
+    <div style="font-family: 'Cormorant Garamond', serif; font-size: clamp(24px, 3vw, 34px); font-weight: 300; color: #F7F4EE;">Thank you for visiting.</div>
+    <p style="font-size: 15px; line-height: 1.9; color: rgba(247,244,238,0.62); margin: 20px 0 30px;">You may close this window. If you would like to review the disclaimer again, you are welcome to return.</p>
+    <button type="button" onClick="{{ review }}" style="font-family: 'DM Sans', sans-serif; font-size: 10.5px; letter-spacing: 0.2em; color: #0B1938; background: #C9A45C; border: none; padding: 18px 34px; cursor: pointer;">REVIEW DISCLAIMER</button>
+  </div>
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1200,&quot;height&quot;:760}}">
+const KEY = 'spv-disclaimer-accepted';
+
+class Component extends DCLogic {
+  state = { status: 'hidden' };
+
+  componentDidMount() {
+    let accepted = false;
+    try { accepted = localStorage.getItem(KEY) === 'yes'; } catch (e) {}
+    if (!accepted) {
+      this.setState({ status: 'prompt' });
+      document.body.style.overflow = 'hidden';
+    }
+    this._onKey = (e) => { if (e.key === 'Escape' && this.state.status === 'prompt') e.preventDefault(); };
+    window.addEventListener('keydown', this._onKey);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('keydown', this._onKey);
+    document.body.style.overflow = '';
+  }
+
+  renderVals() {
+    const s = this.state.status;
+    const base = 'position: fixed; inset: 0; z-index: 500; align-items: center; justify-content: center; padding: clamp(16px, 4vw, 40px); background: rgba(8,20,47,0.72); backdrop-filter: blur(6px); overflow-y: auto;';
+    return {
+      overlayStyle: base + ' display: ' + (s === 'prompt' ? 'flex' : 'none') + ';',
+      declinedStyle: 'position: fixed; inset: 0; z-index: 500; align-items: center; justify-content: center; padding: 32px; background: #08142F; display: ' + (s === 'declined' ? 'flex' : 'none') + ';',
+      accept: () => {
+        try { localStorage.setItem(KEY, 'yes'); } catch (e) {}
+        document.body.style.overflow = '';
+        this.setState({ status: 'hidden' });
+      },
+      decline: () => this.setState({ status: 'declined' }),
+      review: () => this.setState({ status: 'prompt' })
+    };
+  }
+}
+
+</script>
+</body>
+</html>

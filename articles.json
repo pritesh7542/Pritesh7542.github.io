@@ -1,0 +1,1022 @@
+{
+ "rule-42-43": {
+  "title": "Rule 42/43 and the ITC Reversal Debate: Are Duty Credit Scrips and High Sea Sales Truly ‘Exempt Supply’?",
+  "category": "GST",
+  "date": "07 May 2026",
+  "author": "Adv. Pritesh Kumar, Partner",
+  "cite": "[2026] 186 taxmann.com 224 (Article)",
+  "standfirst": "Section 17(2) requires apportionment of common credit between taxable and exempt supplies. Whether sales of duty credit scrips and high sea sales fall within ‘exempt supply’ at all decides the size of the reversal.",
+  "body": [
+   {
+    "t": "h",
+    "x": "I. Introduction"
+   },
+   {
+    "t": "p",
+    "x": "The framework governing apportionment and reversal of Input Tax Credit (ITC) under the GST regime remains one of the most technically complex areas of indirect tax practice. Section 17(2) of the CGST Act, 2017 mandates that a registered person engaged in both taxable and exempt supplies restrict ITC on common inputs and input services to the portion attributable to taxable supplies. The computation mechanism is prescribed under Rules 42 and 43 of the CGST Rules, 2017."
+   },
+   {
+    "t": "p",
+    "x": "The principle of apportionment appears simple in theory. Its application, however, has led to significant controversy in two recurring situations within trading and export-oriented sectors. The first concern is the sale of Duty Credit Scrips (DCS) earned under the Merchandise Exports from India Scheme (MEIS) or similar schemes under the Foreign Trade Policy. The second relates to High Sea Sales, involving transfer of goods during transit prior to customs clearance in India."
+   },
+   {
+    "t": "p",
+    "x": "The Revenue, through scrutiny notices, show cause notices, and adjudication orders issued by CGST and Customs authorities across India, has consistently taken the position that both DCS sales and High Sea Sales qualify as ‘exempt supply’ under Section 2(47) of the CGST Act. This interpretation leads to proportionate reversal of ITC under Rules 42 and 43. However, on the other hand the Taxpayers dispute this position. They rely on statutory provisions and judicial precedents to argue that neither DCS sales nor High Sea Sales fall within the ambit of ‘exempt supply’ for this purpose. They contend that the Revenue’s approach results in unjustified and excessive demands."
+   },
+   {
+    "t": "p",
+    "x": "The controversy intensified when a Notification No. 14/2022-Central Tax (Rate) dated 05.07.2022 was issued by the CBIC. The notification excludes DCS from the computation of exempt turnover for Rule 42. Its nature, whether clarificatory or prospective, remains disputed."
+   },
+   {
+    "t": "p",
+    "x": "This article examines these issues in a structured manner. It aims to provide a clear analytical framework for practitioners, taxpayers, and adjudicating authorities."
+   },
+   {
+    "t": "h",
+    "x": "II. The Statutory Framework: Section 17(2) and Rules 42 & 43"
+   },
+   {
+    "t": "h",
+    "x": "A. Section 17(2) — The Charging Provision"
+   },
+   {
+    "t": "p",
+    "x": "Section 17(2) of the CGST Act lays down the foundational rule for ITC apportionment. It provides that where goods or services or both are used partly for effecting taxable supplies (including zero-rated supplies) and partly for effecting exempt supplies, the amount of credit shall be restricted to so much of the input tax as is attributable to the said taxable supplies, including zero-rated supplies."
+   },
+   {
+    "t": "p",
+    "x": "The term 'exempt supply' is defined under Section 2(47) of the CGST Act, 2017 as: \"supply of any goods or services or both which attracts nil rate of tax or which may be wholly exempt from tax under section 11, or under section 6 of the Integrated Goods and Services Tax Act, and includes non-taxable supply.\""
+   },
+   {
+    "t": "p",
+    "x": "This definition is critical. It has two key components: (a) it encompasses supplies of goods or services that attract nil rate or are wholly exempt under the relevant sections; and (b) it includes 'non-taxable supply.' Importantly, the entire definition is premised on the existence of a 'supply' under Section 7 of the CGST Act. An activity or transaction that does not constitute 'supply' at all cannot, by definition, constitute 'exempt supply.'"
+   },
+   {
+    "t": "h",
+    "x": "B. Rules 42 and 43 — The Computational Mechanism"
+   },
+   {
+    "t": "p",
+    "x": "Rules 42 and 43 of the CGST Rules, 2017 prescribe the detailed methodology for computing and reversing ITC in respect of inputs/input services and capital goods respectively. The structure of Rule 42 involves the following key steps:"
+   },
+   {
+    "t": "p",
+    "x": "Step Concept \tDescription 1 \tT = Total ITC All ITC availed on inputs and input services in a tax period 2 \tT1 = Exclusively non-business ITC wholly attributable to activities other than business — to be reversed in full 3 \tT2 = Exclusively exempt ITC wholly attributable to exempt supply — to be reversed in full 4 \tT3 = Blocked credit ITC blocked under Section 17(5) — ineligible 5 \tT4 = Exclusively taxable ITC wholly attributable to taxable supplies including zero-rated — fully eligible, deducted from pool 6 \tCommon ITC = T − (T1+T2+T3+T4) Residual ITC — attributable to both taxable and exempt, to be apportioned 7 Reversal = Common ITC × (Exempt Turnover / Total Turnover) Proportionate reversal on exempt supply ratio The critical feature of this structure is Step 5 which is the T4 deduction. ITC that is exclusively attributable to taxable supplies must be identified and deducted before determining the 'common ITC' pool. It is only the residual common ITC that is subject to proportionate reversal. The Revenue's frequent error lies in bypassing the T4 step and applying the reversal ratio directly to gross aggregate ITC."
+   },
+   {
+    "t": "h",
+    "x": "III. Duty Credit Scrips —Nature, GST Exemption, and the ITC Reversal Controversy"
+   },
+   {
+    "t": "h",
+    "x": "A. What are Duty Credit Scrips?"
+   },
+   {
+    "t": "p",
+    "x": "Duty Credit Scrips (DCS) are tradeable certificates issued by the Directorate General of Foreign Trade (DGFT), Government of India, under export promotion schemes such as the Merchandise Exports from India Scheme (MEIS) and the Service Exports from India Scheme (SEIS) under the Foreign Trade Policy (FTP). At para 3.0 of FTP 2015- 2020 describes DCS under MEIS as ‘rewards’ or an export incentive granted to exporters on the basis of their export performance."
+   },
+   {
+    "t": "p",
+    "x": "Duty Credit Scrips can be used for the payment of Basic Customs Duty on imports or other permitted purposes. They are freely transferable instruments and exporters who do not require imports may transfer DCS in the secondary market to importers. It is this secondary market transfer of DCS by exporters, essentially a paper-based financial transaction without involvement of production inputs or services, has given rise to the controversy under Rule 42."
+   },
+   {
+    "t": "h",
+    "x": "B. The GST Exemption Notification for DCS"
+   },
+   {
+    "t": "p",
+    "x": "Initially, Notification No. 01/2017-Central Tax (Rate) dated 28.06.2017 classified Duty Credit Scrips under Sl. No. 128 of Schedule II, thereby subjecting them to GST at the rate of 12%. This position treated DCS as taxable goods in the initial phase of GST implementation."
+   },
+   {
+    "t": "p",
+    "x": "The position was subsequently altered. Notification No. 35/2017-Central Tax (Rate) dated 13.10.2017 amended the exemption notification, namely Notification No. 02/2017-CT (Rate) dated 28.06.2017, by inserting ‘Duty Credit Scrips’ at Sl. No. 122A under HSN 4907. Through this amendment, DCS were brought within the scope of fully exempt supplies. Accordingly, with effect from 13.10.2017, transactions involving DCS ceased to attract GST, marking a clear shift from taxation to exemption. The objective was straightforward that is to ensure that export incentives issued by the Government do not themselves attract an additional tax burden, which would reduce their effective value and undermine export promotion policy."
+   },
+   {
+    "t": "h",
+    "x": "C. The Revenue's Position — Rule 42 Triggered"
+   },
+   {
+    "t": "p",
+    "x": "Post-exemption, many CGST field formations took the position that since DCS are ‘exempt from GST’ (by virtue of Notification No. 35/2017), their sale constitutes ‘exempt supply’ under Section 2(47) of the CGST Act, which includes wholly exempt supplies. Consequently, the departments argued that the taxpayer's common ITC must be apportioned in the ratio of DCS sales to total turnover and reversed under Rule 42."
+   },
+   {
+    "t": "h",
+    "x": "D. The Taxpayer's Counter — DCS Are Not 'Supply' at All"
+   },
+   {
+    "t": "p",
+    "x": "The taxpayers' primary contention is that the sale of DCS is not ‘supply’ under Section 7 of the CGST Act in the relevant sense, and therefore cannot trigger Section 17(2) at all. The Taxpayers argue that Duty Credit Scrips are merely transferable fiscal incentives issued by the Government and their transfer represents assignment of a statutory entitlement rather than a taxable outward supply of goods or services. Consequently, since Rule 42 applies only where common ITC is attributable to both taxable and exempt supplies, the absence of a ‘supply’ itself renders the machinery provisions of Section 17(2) and Rule 42 inapplicable. In the alternative, even assuming that the transfer of DCS is treated as an exempt supply by virtue of Notification No. 35/2017-CT(Rate), the subsequent exclusion inserted through Notification No. 14/2022 demonstrates the legislative intent that such transactions were never intended to form part of the exempt turnover for ITC reversal purposes."
+   },
+   {
+    "t": "h",
+    "x": "E. Notification No. 14/2022-CT(Rate) — A Clarificatory Intervention"
+   },
+   {
+    "t": "p",
+    "x": "The Government intervened on 05.07.2022 through Notification No. 14/2022-Central Tax (Rate) to insert clause (d) in Explanation-1 to Rule 43 of the CGST Rules, 2017. This clause excludes the value of Duty Credit Scrips specified in Notification No. 35/2017-CT (Rate) from the ‘aggregate value of exempt supplies’ for the purpose of Rule 42 computation."
+   },
+   {
+    "t": "p",
+    "x": "The practical effect is clear. Even if DCS sales are treated as 'exempt supply,' their value is excluded from both the denominator and numerator of the Rule 42 apportionment ratio. As a result, any requirement of reversal under Rule 42 on account of DCS sales does not arise."
+   },
+   {
+    "t": "p",
+    "x": "The Telangana State Authority for Advance Rulings (TSAAR) in Kaveri Exports, In re [2023] 152 taxmann.com 273 (AAR - TELANGANA)/[2023] 76 GSTL 242 (AAR - TELANGANA) has held that the value of Duty Credit Scrips must be excluded from the computation of exempt supply value for Rule 42 purposes, considering the insertion of clause (d) and its clarificatory character."
+   },
+   {
+    "t": "h",
+    "x": "F. The Temporal Controversy — Prospective or Retrospective?"
+   },
+   {
+    "t": "p",
+    "x": "The most contested question arising from Notification 14/2022 is its temporal applicability. Adjudicating authorities have uniformly applied it only prospectively from 05.07.2022, rejecting ITC reversal demands for post-2022 periods but confirming demands for earlier periods (FY 2017-18 to 2021-22). Taxpayers argue, with compelling force, that the notification is declaratory and must apply retrospectively."
+   },
+   {
+    "t": "p",
+    "x": "The legal basis for the retrospectivity argument rests on three pillars:"
+   },
+   {
+    "t": "p",
+    "x": "• Nature of the amendment: The insertion was made in an 'Explanation' to a rule. An Explanation, by settled judicial canon, does not create new law. It clarifies what the existing law always meant. In Zile Singh v. State of Haryana (2004) 8 SCC 1 (SC ), the Hon'ble Supreme Court observed that where the dominant object of an amendment is to remove doubts or clear up an ambiguity in the law, it must be treated as clarificatory and therefore retrospective in operation. The Hon’ble Apex court in Collector of Central Excise, Shillong Vs. Wood Craft Products Ltd 1995 (77) E.L.T. 23 (S.C.), held that clarificatory notification would take effect retrospectively as such notifications merely clarify the position, and such notifications are issued to end disputes between the parties. The Hon’ble Bombay High Court, in its recent judgment in CHEC-TPL Line 4 Joint Venture v. Union of India [Writ Petition No. 2583 of 2025, dated 23- 4-2026], observed, while relying on the decision in Wood Craft Products Ltd. (supra) that the legal position concerning the retrospective applicability of the amended formula already stood settled and ought not to have been disregarded."
+   },
+   {
+    "t": "p",
+    "x": "• Pre-existing legislative intent: DCS were exempted from GST from 13.10.2017 precisely because they are government-issued export incentives and not commercial supplies in the ordinary sense. Applying Rule 42 to DCS sales would defeat the very purpose of the exemption. The 2022 amendment simply made explicit what should always have been the position."
+   },
+   {
+    "t": "p",
+    "x": "• Principle against absurdity: To treat Notification 14/2022 as prospective only would mean that exporters are penalised under Rule 42 for the period 2017-2022 for holding government export incentives. Such an outcome is commercially and constitutionally absurd. In Suchitra Components Ltd. v. Commissioner of Central Exicse, Guntur [2007] 208 ELT 321 (SC)/[2008] 12 STT 25 (SC), the Hon’ble Supreme court while relying upon CCE v. Mysore Electricals Industries Ltd. 2007 taxmann.com 1555 (SC)/[2006] 204 ELT 517 (SC) judgement held that a beneficial circular has to be applied retrospectively while oppressive circular has to be applied prospectively. Thus, when the circular is against the assessee, they have right to claim enforcement of the same prospectively."
+   },
+   {
+    "t": "h",
+    "x": "IV. High Sea Sales — Schedule III and the 'Exempt Supply' Misconception"
+   },
+   {
+    "t": "h",
+    "x": "A. Nature and Commercial Significance"
+   },
+   {
+    "t": "p",
+    "x": "High Sea Sales are transactions where the original importer transfers title to goods while they are still in international transit, after dispatch from the port of loading and before filing of the Bill of Entry at the Indian port of destination, to another buyer. Such transactions are common in commodity trading, particularly in steel, chemicals, polymers, and bulk agricultural commodities."
+   },
+   {
+    "t": "p",
+    "x": "The commercial rationale is clear. The original importer identifies a buyer before the goods arrive, enabling the buyer to file the Bill of Entry in its own name and discharge customs duty directly. This structure removes the need for the seller to fund the import, while the buyer secures a more competitive price."
+   },
+   {
+    "t": "h",
+    "x": "B. Treatment Under GST — Schedule III"
+   },
+   {
+    "t": "p",
+    "x": "The treatment of High Sea Sales under the GST regime has been definitively settled by statute. The CGST Act, 2017 was amended with effect from 01.02.2019 to insert Entry 8(b) in Schedule III, which reads:"
+   },
+   {
+    "t": "p",
+    "x": "\"Supply of goods by the consignee to any other person, by endorsement of documents of title to the goods, after the goods have been dispatched from the port of origin located outside India but before clearance for home consumption.\" By virtue of Section 7(2) of the CGST Act, activities and transactions specified in Schedule III are to be treated as neither supply of goods nor supply of services. This is not a 'nil-rated' supply or a 'wholly exempt' supply. It is a transaction that falls entirely outside the definition of 'supply.' Since it is not 'supply' at all, it cannot be 'exempt supply' within Section 2(47)."
+   },
+   {
+    "t": "p",
+    "x": "This position is reinforced by Section 17(3) of the CGST Act, which provides that for the purpose of determining the 'value of exempt supply' for ITC reversal under Section 17(2), the 'value of exempt supply' shall not include the value of activities or transactions specified in Schedule III, except those falling under Paragraph 5 (sale of land and building) and Paragraph 8(a) (warehoused goods cleared before BoE). Since High Sea Sales fall under Entry 8(b), they are expressly and specifically excluded."
+   },
+   {
+    "t": "h",
+    "x": "C. CBIC's Own Clarification"
+   },
+   {
+    "t": "p",
+    "x": "Even before the statutory amendment, the CBIC issued Circular No. 33/2017-Customs dated 01.08.2017 clarifying that IGST on High Sea Sales of imported goods is to be levied and collected only at the time of importation i.e., when the final buyer (the 'last purchaser' in the chain) files the Bill of Entry. The value addition in each High Sea Sale is included in the customs value at the time of importation, on which integrated tax is levied under Section 3(7) of the Customs Tariff Act, 1975."
+   },
+   {
+    "t": "p",
+    "x": "This circular treatment confirms that High Sea Sales are not taxed as independent supply events under GST."
+   },
+   {
+    "t": "h",
+    "x": "D. The Revenue's Error — Treating 'Not a Supply' as 'Exempt Supply'"
+   },
+   {
+    "t": "p",
+    "x": "Despite the clarity of the statutory framework, many CGST scrutiny proceedings include High Sea Sales in the 'exempt turnover' figure when computing proportionate ITC reversal under Rule 42. This conflation of 'not a supply' with 'exempt supply' is a fundamental category error."
+   },
+   {
+    "t": "h",
+    "x": "V. Judicial and Quasi-Judicial Trends"
+   },
+   {
+    "t": "p",
+    "x": "The fundamental commercial and legal character of High Sea Sales was settled by the Hon'ble Supreme Court as long ago as 1960 in J.V. Gokal & Co. (Pvt.) Ltd. v. Asstt. Collr. of Sales Tax (Inspection) [AIR 1960 SC 595]. The Supreme Court held that a sale conducted by transfer of shipping documents while goods are on the high seas before reaching the customs frontier of India is a sale “in the course of import” and is outside the reach of domestic taxation. The goods at that point have not yet entered the territory of India and are not subject to any domestic levy. This foundational principle that a High Sea Sale is a pre-import document transfer outside the domestic tax net has been consistently followed in all subsequent legislative treatment of High Sea Sales, including the insertion of Entry 8(b) in Schedule III of the CGST Act, 2017."
+   },
+   {
+    "t": "h",
+    "x": "VI. Conclusion"
+   },
+   {
+    "t": "p",
+    "x": "The controversy relating to ITC reversal under Rules 42 and 43 in respect of Duty Credit Scrips and High Sea Sales is among the most legally nuanced and commercially significant issues in contemporary GST practice. The Revenue’s position treats both as ‘exempt supply’ and applies turnover-based reversal to gross ITC. This approach reflects a misreading of the statutory framework. It ignores the T4 deduction step under Rule 42 and fails to consider the specific exclusions under Section 17(3) and Notification No. 14/2022."
+   },
+   {
+    "t": "p",
+    "x": "Duty Credit Scrips are export incentives and not commercial supplies. High Sea Sales fall under Schedule III and do not qualify as exempt supplies. After proper T4 deduction, the remaining common ITC attributable to these transactions is, in most cases, negligible or nil. The resulting ITC reversal demands, often running into substantial amounts with interest and penalty, are disproportionate, legally unsustainable, and inconsistent with the legislative objective of promoting exports."
+   },
+   {
+    "t": "p",
+    "x": "© Copyright Taxmann. No part can be copied or circulated without the permission of Taxmann."
+   }
+  ]
+ },
+ "bhandari-scrap-traders": {
+  "title": "Supreme Court Refuses to Read Down Section 16(2)(c): The Bhandari Scrap Traders Order",
+  "category": "GST",
+  "date": "July 2026",
+  "author": "Adv. Pritesh Kumar, Partner",
+  "cite": "Bhandari Scrap Traders v. Union of India & Ors., SLP (C) No. 23931 of 2026, dated 24.07.2026 (Supreme Court of India)",
+  "standfirst": "The Supreme Court has, for the first time, indicated which way it leans on Section 16(2)(c) — and it is not in favour of the buyer left holding a defaulting supplier's liability.",
+  "body": [
+   {
+    "t": "p",
+    "x": "Introduction"
+   },
+   {
+    "t": "p",
+    "x": "On 24.07.2026, the Supreme Court dismissed a batch of Special Leave Petitions filed by Bhandari Scrap Traders and connected parties. The petitions challenged a judgment of the Gujarat High Court dated 01.05.2026 in Maruti Enterprise v. Union of India, which had upheld the constitutional validity of Section 16(2)(c) of the CGST Act, 2017 and had refused to read it down. The Supreme Court, comprising Justice Sanjay Kumar and Justice Sanjeev Sachdeva, agreed with the Gujarat High Court and dismissed the petitions."
+   },
+   {
+    "t": "p",
+    "x": "This order matters because a different High Court, the Tripura High Court, had earlier taken the opposite view on the same question in Sahil Enterprises v. Union of India. An SLP against that Tripura judgment is still pending before the Supreme Court. So, before this order, there were two conflicting High Court positions in the field, and the Supreme Court had not picked a side. This order is the first clear indication of which way the Supreme Court is leaning, even though the pending appeal has not yet been decided."
+   },
+   {
+    "t": "p",
+    "x": "Why Section 16(2)(c) Has Been Controversial"
+   },
+   {
+    "t": "p",
+    "x": "Section 16(2)(c) of the CGST Act, 2017 says that a recipient can avail Input Tax Credit (\"ITC\") only if the tax charged on the supply has actually been paid to the Government, either in cash or through utilisation of admissible ITC. This is in addition to holding a valid invoice, receiving the goods or services, and filing returns."
+   },
+   {
+    "t": "p",
+    "x": "The difficulty is practical, not conceptual. Once a buyer has paid the seller, including the tax component, the buyer has no visibility into whether the seller has actually deposited that tax with the Government. GSTR-2A and GSTR-2B show what the supplier has reported, but they do not tell the buyer whether the supplier has actually remitted the tax. If the supplier defaults, whether out of fraud or plain business failure, it is the buyer who is asked to reverse the credit, along with interest under Section 50."
+   },
+   {
+    "t": "p",
+    "x": "This is why the provision is called unfair by many taxpayers and practitioners. The person who committed the default, the supplier, often escapes untouched, while the person who paid in good faith, the buyer, is made to pay again through reversal of credit. Litigation on this point has been going on for years, both under the earlier VAT laws and now under GST."
+   },
+   {
+    "t": "p",
+    "x": "Two additional points sharpened the controversy in recent years. First, Section 41 of the CGST Act was changed with effect from 01.10.2022. Before that date, credit taken by a recipient was only provisional, and the law did not clearly say what happens if the supplier defaults. After the change, Section 41(2) directly requires the recipient to reverse the credit, with interest, if the supplier has not paid the tax, and Rule 37A lays down the mechanic for this. Second, the automated matching system originally planned under Sections 42 and 43 of the CGST Act, which was supposed to catch such mismatches without punishing the buyer, was never made operational and was formally deleted from the Act in 2022. So the safety net that lawmakers had originally planned never came into being, and the buyer was left carrying the risk instead."
+   },
+   {
+    "t": "p",
+    "x": "Two Conflicting Lines of Authority"
+   },
+   {
+    "t": "p",
+    "x": "Courts across India have not spoken with one voice on this question. Broadly, two lines of cases have developed."
+   },
+   {
+    "t": "p",
+    "x": "1. The Taxpayer-Favourable Line"
+   },
+   {
+    "t": "p",
+    "x": "This line traces back to the Delhi High Court's decision in On Quest Merchandising India (P) Ltd. v. Government of NCT of Delhi, which dealt with a similarly worded provision under the Delhi Value Added Tax Act, 2004. The Delhi High Court read down that provision so that a bona fide purchasing dealer, who had paid tax to the seller and held valid documents, would not be denied credit merely because the seller defaulted. The Supreme Court did not interfere with this view when the matter came up in Commissioner of Trade & Tax, Delhi v. Arise India Ltd. and later in Commissioner Trade & Tax, Delhi v. Shanti Kiran India (P) Ltd."
+   },
+   {
+    "t": "p",
+    "x": "This reasoning was carried into the GST regime by the Gauhati High Court in National Plasto Moulding v. State of Assam, and, more recently and more directly, by the Tripura High Court in Sahil Enterprises v. Union of India. In Sahil Enterprises, the Department had invoked only Section 73 of the CGST Act, not Section 74, meaning there was no allegation of fraud, and the Department did not dispute that the assessee had actually paid the supplier over Rs. 1.11 crore, including GST. On these facts, the Tripura High Court held that Section 16(2)(c) is not unconstitutional, but that it should be read down. In the Court's words, the provision should be applied only where the transaction is not bona fide, or is collusive or fraudulent. Since the buyer's bona fides were not in doubt, the Court directed the Department to allow the ITC."
+   },
+   {
+    "t": "p",
+    "x": "2. The Strict-Compliance Line"
+   },
+   {
+    "t": "p",
+    "x": "A separate line of cases has held that ITC is a concession granted by statute, not a vested right, and that a taxpayer who wants the benefit of that concession must satisfy every condition attached to it, including actual payment of tax by the supplier. This view has been taken by the Kerala High Court in M. Trade Links v. Union of India and in Nahasshukoor v. Assistant Commissioner, by the Andhra Pradesh High Court in Thirumalakonda Plywoods v. Assistant Commissioner – State Tax, and by the Patna High Court in Astha Enterprises v. State of Bihar."
+   },
+   {
+    "t": "p",
+    "x": "This line also draws support from the Supreme Court's decision in State of Karnataka v. Ecom Gill Coffee Trading Pvt. Ltd., which held, in the context of a similar credit claim, that the burden of proving the genuineness of a transaction lies on the person claiming the credit, and that mere production of invoices or proof of payment by cheque is not enough."
+   },
+   {
+    "t": "p",
+    "x": "The Gujarat High Court's judgment in Maruti Enterprise, which is the judgment now affirmed in Bhandari Scrap Traders, falls in this second line. It went a step further than earlier judgments of this kind by directly explaining why the CGST Act should not be read the same way as the Delhi VAT Act was read in On Quest Merchandising."
+   },
+   {
+    "t": "p",
+    "x": "The Bhandari Scrap Traders Judgment Explained"
+   },
+   {
+    "t": "p",
+    "x": "The petitioners, including Bhandari Scrap Traders, had been denied ITC solely because their suppliers had failed to deposit the tax collected from them. They challenged Section 16(2)(c) before the Gujarat High Court as arbitrary and violative of Articles 14, 19(1)(g), 265 and 300A of the Constitution."
+   },
+   {
+    "t": "p",
+    "x": "Their case rested on three points. First, that clauses (a), (aa), (b) and (ba) of Section 16(2) already ensure the genuineness of a transaction, through valid invoices, matching in GSTR-2B, receipt of goods or services, and filing of returns, so clause (c) adds an unreasonable extra condition on top. Second, that a recipient has no access to the supplier's GSTR-3B and cannot know or control whether the supplier has actually paid the tax, so the condition asks for something impossible, invoking the legal maxim lex non cogit ad impossibilia, meaning the law does not compel a person to do the impossible. Third, that this is exactly the situation the Delhi High Court had addressed in On Quest Merchandising, and the Tripura High Court had followed the same approach in Sahil Enterprises, so the Gujarat High Court should follow suit."
+   },
+   {
+    "t": "p",
+    "x": "The Revenue's response was that ITC is a concession, not a right, and comes with conditions Parliament is free to impose. It argued that Section 16(2)(c) cannot be read in isolation. It has to be read with Section 41(2), Section 53 and Section 155 of the CGST Act, and with Rule 37A of the CGST Rules. Taken together, these provisions require the recipient to reverse the credit if the supplier defaults, but also allow the recipient to re-avail that credit once the supplier eventually pays. Section 155 places the burden of proving eligibility for ITC on the person claiming it. Section 53 requires the destination State to actually receive the money before the credit chain can work smoothly across States. On this basis, the Revenue argued that the CGST Act already builds in a fairer mechanism than the Delhi VAT Act did, so there is no reason to import the same reading-down approach."
+   },
+   {
+    "t": "p",
+    "x": "The Gujarat High Court accepted the Revenue's argument. It held that Section 16(2)(c) is constitutional and declined to read it down. It expressly disagreed with the Tripura High Court's view in Sahil Enterprises. At the same time, the Gujarat High Court did not simply dismiss the taxpayers' concerns. It observed that the recipient is not left without any remedy at all, since the Revenue can recover the unpaid tax directly from the defaulting supplier under Sections 73 and 74, and the recipient can re-avail the reversed credit once that payment is made. It also went on to say that the Government should seriously look at building a real-time, technology-based system to verify invoice-wise tax payment by suppliers, and to recover promptly from suppliers who default, so that honest buyers are not made to suffer for someone else's default. This is not a binding direction, but it does show that even the High Court which ruled against the taxpayers here saw force in their underlying grievance."
+   },
+   {
+    "t": "p",
+    "x": "When the matter reached the Supreme Court, the petitioners pointed out that a separate SLP against the Tripura High Court's decision in Sahil Enterprises had already been entertained, meaning it had been admitted for hearing. The Supreme Court took note of this but was not persuaded to follow the same course here. It observed that the Tripura High Court had not carried out the same detailed analysis that the Gujarat High Court had done, particularly the comparison between the CGST Act and the Delhi VAT Act, and the discussion of the ITC availment scheme under Sections 41, 73 and 74. Because of this gap in the Tripura judgment, the Supreme Court chose to follow the Gujarat High Court's reasoning instead."
+   },
+   {
+    "t": "p",
+    "x": "The operative part of the order records that the Supreme Court found itself in “complete and respectful agreement” with the Gujarat High Court, and affirmed and upheld its judgment. All the connected Special Leave Petitions were dismissed."
+   },
+   {
+    "t": "p",
+    "x": "What Happens When the Supreme Court Decides One Matter While Other SLPs on the Same Point Are Pending"
+   },
+   {
+    "t": "p",
+    "x": "This is a recurring situation before the Supreme Court, and it is useful to understand how the law treats it, because it directly affects what happens next to the pending Sahil Enterprises appeal."
+   },
+   {
+    "t": "p",
+    "x": "The starting point is the Supreme Court's own decision in Kunhayammed and Ors. v. State of Kerala and Anr., a three-judge bench ruling that remains the leading authority on this question. That case explains that an SLP under Article 136 of the Constitution passes through two stages. The first stage is simply the decision whether to grant leave to appeal at all. The second stage begins only if leave is granted, after which the SLP effectively becomes a regular appeal, to be heard and decided on its merits."
+   },
+   {
+    "t": "p",
+    "x": "Kunhayammed lays down a few clear rules that apply here. If the Supreme Court dismisses an SLP at the first stage without giving reasons, that dismissal does not mean the Supreme Court has approved of the High Court's reasoning, it does not amount to a declaration of law binding on other courts under Article 141 of the Constitution, and the judgment of the High Court does not merge into any order of the Supreme Court. The High Court's judgment remains exactly what it was, for whatever it is worth as a precedent of that High Court."
+   },
+   {
+    "t": "p",
+    "x": "However, where the Supreme Court dismisses an SLP by a reasoned or speaking order, meaning it actually explains why it agrees with the High Court, the position is different. Even without formally granting leave, a speaking order can carry weight under Article 141, because it is a decision to which the Supreme Court has applied its mind and recorded reasons. The doctrine of merger still does not strictly apply unless leave has actually been granted and the appeal decided, but a reasoned dismissal is treated with far more respect by other courts than a one-line rejection."
+   },
+   {
+    "t": "p",
+    "x": "The Bhandari Scrap Traders order is a reasoned order. The Bench did not simply say “dismissed”. It explained why it preferred the Gujarat High Court's reasoning over the Tripura High Court's, and it recorded that it was in complete agreement with the Gujarat High Court. Going by the principle in Kunhayammed, this gives the order real persuasive and precedential weight, even though, strictly speaking, no formal appeal was heard on merits and the doctrine of merger has not been triggered."
+   },
+   {
+    "t": "p",
+    "x": "As for the pending SLP against Sahil Enterprises, that matter has not been decided and remains a separate, independent proceeding. Dismissal of the Bhandari Scrap Traders petitions does not automatically dispose of it. What is likely, based on how the Supreme Court usually deals with such situations, is one of the following. The Sahil Enterprises appeal may now be listed before a Bench that will follow the same reasoning as in Bhandari Scrap Traders, since judicial discipline generally requires a Bench of the same strength to follow an earlier, reasoned view of a coordinate Bench, unless it disagrees enough to refer the question to a larger Bench. Given that the Bhandari Scrap Traders Bench has already expressed a clear and reasoned view, it would be unusual, though not impossible, for the outcome in Sahil Enterprises to go the other way when it is finally heard. If, on the other hand, the judges hearing the Sahil Enterprises appeal are not persuaded by the reasoning in Bhandari Scrap Traders, propriety would require them to refer the conflict to a larger Bench, typically of three judges, rather than take a contrary view themselves as a coordinate Bench of two judges."
+   },
+   {
+    "t": "p",
+    "x": "There is also a related point worth flagging. Because leave appears to have already been entertained in the Sahil Enterprises matter, that case, when it is finally decided, is more likely to result in a full appellate judgment on merits, which would carry the full weight of a binding Article 141 precedent and would also trigger the doctrine of merger with the Tripura High Court's judgment. That final judgment, whichever way it goes, is likely to be the more authoritative and lasting word on this question, compared to the Bhandari Scrap Traders order, which remains a reasoned SLP dismissal."
+   },
+   {
+    "t": "p",
+    "x": "Where the Litigation Could Go From Here"
+   },
+   {
+    "t": "p",
+    "x": "The pending SLP against Sahil Enterprises is the matter to watch. Its outcome will either confirm the Bhandari Scrap Traders position as settled law, or create a direct conflict between two Supreme Court rulings that would need to be resolved by a larger Bench."
+   },
+   {
+    "t": "p",
+    "x": "Bhandari Scrap Traders and the connected petitioners can, in theory, file a review petition before the Supreme Court against this dismissal, though review petitions on a point already this thoroughly reasoned rarely succeed."
+   },
+   {
+    "t": "p",
+    "x": "Separately, the Supreme Court's order in Prime Metals v. Central Board of Indirect Taxes and Customs & Ors. is sometimes cited alongside Bhandari Scrap Traders, but it decided a different and narrower point. There, the Rajasthan High Court had dismissed a writ petition on the ground that the petitioner should first pursue the statutory appeal remedy, and the Supreme Court simply declined to interfere with that procedural outcome. The Supreme Court did not rule on the constitutional validity of Section 16(2)(c) in Prime Metals, and it expressly left that question open. It should not be read as another ruling on the merits of Section 16(2)(c)."
+   },
+   {
+    "t": "p",
+    "x": "More writ petitions raising the same challenge are likely to keep coming before various High Courts, particularly from recipients hit with reversal demands where the supplier's default had nothing to do with the recipient's own conduct. Until the Sahil Enterprises appeal is finally decided, some High Courts may continue to feel free to take a Tripura-like approach on their own facts, while others will likely follow the Gujarat and now Bhandari Scrap Traders line."
+   },
+   {
+    "t": "p",
+    "x": "On the legislative side, the Gujarat High Court's own suggestion, that the Government build a real-time mechanism to verify supplier payments and recover quickly from defaulters, could eventually lead to policy or portal-level changes, separate from how the courts finally settle the legal question."
+   },
+   {
+    "t": "p",
+    "x": "Practical Takeaway for Taxpayers"
+   },
+   {
+    "t": "p",
+    "x": "For now, the safer working assumption is that Section 16(2)(c) will be applied strictly. A recipient cannot treat good faith, a valid invoice, and proof of payment to the supplier as, by themselves, enough to keep the credit if the supplier has not actually paid the tax to the Government. The remedy under the present law is reversal of the credit, with interest, and re-availment later under Section 41(2) read with Rule 37A, once the supplier pays up."
+   },
+   {
+    "t": "p",
+    "x": "Businesses should continue with vendor due diligence before onboarding suppliers, regular reconciliation of purchase records against GSTR-2A and GSTR-2B, monitoring of supplier return-filing status, and contractual clauses that make the supplier responsible for depositing tax and for indemnifying the recipient if it does not. These steps will not change the statutory position, but they remain the most practical way to reduce exposure while the larger constitutional question makes its way through the pending Sahil Enterprises appeal."
+   },
+   {
+    "t": "p",
+    "x": "Conclusion"
+   },
+   {
+    "t": "p",
+    "x": "The Bhandari Scrap Traders order is a significant, reasoned affirmance of the view that Section 16(2)(c) is constitutional and cannot be read down to protect bona fide buyers as a class. It draws on the Gujarat High Court's detailed comparison between the CGST Act and the Delhi VAT Act, and on the re-availment mechanism under Sections 41, 73 and 74 of the CGST Act. But it is not the final word. The Tripura High Court's contrary view in Sahil Enterprises is still under challenge before the Supreme Court, and that appeal, when decided, is likely to settle the question more conclusively, one way or the other. Until then, taxpayers should treat the strict, Gujarat-and-Bhandari-Scrap-Traders position as the one more likely to be applied, while keeping an eye on the pending appeal."
+   },
+   {
+    "t": "p",
+    "x": "Cases Referred"
+   },
+   {
+    "t": "p",
+    "x": "Case"
+   },
+   {
+    "t": "p",
+    "x": "Citation / Reference"
+   },
+   {
+    "t": "p",
+    "x": "Bhandari Scrap Traders v. Union of India & Ors. (with connected matters)"
+   },
+   {
+    "t": "p",
+    "x": "SLP (C) No. 23931 of 2026, dated 24.07.2026 (SC)"
+   },
+   {
+    "t": "p",
+    "x": "Maruti Enterprise v. Union of India & Ors."
+   },
+   {
+    "t": "p",
+    "x": "R/Special Civil Application No. 18080 of 2023 and allied matters (including R/SCA No. 749 of 2025), dated 01.05.2026 (Gujarat HC)"
+   },
+   {
+    "t": "p",
+    "x": "Sahil Enterprises v. Union of India & Ors."
+   },
+   {
+    "t": "p",
+    "x": "W.P.(C) No. 688 of 2022, dated 06.01.2026; reported at [2026] 182 taxmann.com 144 / (2026) 154 GSTR 108 (Tripura HC)"
+   },
+   {
+    "t": "p",
+    "x": "On Quest Merchandising India (P) Ltd. v. Government of NCT of Delhi"
+   },
+   {
+    "t": "p",
+    "x": "(2017) 87 taxmann.com 179 (Delhi HC)"
+   },
+   {
+    "t": "p",
+    "x": "Commissioner of Trade & Tax, Delhi v. Arise India Ltd."
+   },
+   {
+    "t": "p",
+    "x": "2018 (60) GSTL 215 (SC) – SLP dismissed"
+   },
+   {
+    "t": "p",
+    "x": "Commissioner Trade & Tax, Delhi v. Shanti Kiran India (P) Ltd."
+   },
+   {
+    "t": "p",
+    "x": "(2025) 179 taxmann.com 665 (SC)"
+   },
+   {
+    "t": "p",
+    "x": "National Plasto Moulding v. State of Assam"
+   },
+   {
+    "t": "p",
+    "x": "[2024] 165 taxmann.com 255 (Gauhati HC)"
+   },
+   {
+    "t": "p",
+    "x": "Suncraft Energy (P.) Ltd. v. Assistant Commissioner, State Tax"
+   },
+   {
+    "t": "p",
+    "x": "[2023] 153 taxmann.com 81 (Calcutta HC); SLP dismissed in [2023] 157 taxmann.com 352 (SC)"
+   },
+   {
+    "t": "h",
+    "x": "M. Trade Links v. Union of India"
+   },
+   {
+    "t": "p",
+    "x": "2024 SCC OnLine Ker 2744 (Kerala HC)"
+   },
+   {
+    "t": "p",
+    "x": "Nahasshukoor v. Assistant Commissioner"
+   },
+   {
+    "t": "p",
+    "x": "2023 SCC OnLine Ker 11369 (Kerala HC)"
+   },
+   {
+    "t": "p",
+    "x": "Thirumalakonda Plywoods v. Assistant Commissioner – State Tax"
+   },
+   {
+    "t": "p",
+    "x": "2023 SCC OnLine AP 1476 (Andhra Pradesh HC)"
+   },
+   {
+    "t": "p",
+    "x": "Astha Enterprises v. State of Bihar"
+   },
+   {
+    "t": "p",
+    "x": "2023 SCC OnLine Pat 4395 (Patna HC)"
+   },
+   {
+    "t": "p",
+    "x": "State of Karnataka v. Ecom Gill Coffee Trading Pvt. Ltd."
+   },
+   {
+    "t": "h",
+    "x": "(2023) 18 SCC 809 (SC)"
+   },
+   {
+    "t": "p",
+    "x": "Prime Metals v. Central Board of Indirect Taxes and Customs & Ors."
+   },
+   {
+    "t": "p",
+    "x": "SLP (C) No. 18577 of 2026, dated 29.05.2026 (SC) – alternate remedy point only, validity question left open"
+   },
+   {
+    "t": "p",
+    "x": "Kunhayammed and Ors. v. State of Kerala and Anr."
+   },
+   {
+    "t": "h",
+    "x": "(2000) 6 SCC 359 (SC)"
+   },
+   {
+    "t": "p",
+    "x": "Disclaimer: This article is based on publicly reported summaries of the orders and judgments referred to above, and is intended for general information only. It is not legal advice. Readers should verify the certified copies of the orders before relying on them in any proceeding."
+   }
+  ]
+ },
+ "delhi-crackdown": {
+  "title": "DELHI CRACKDOWN REOPENS AN OLD QUESTION: CAN POLICE SIMPLY BAN A PEACEFUL PROTEST?",
+  "category": "Constitutional Law",
+  "date": "July 2026",
+  "author": "Adv. Pritesh Kumar, Partner",
+  "cite": "",
+  "standfirst": "Denial of police permission does not, by itself, convert a peaceful assembly into an unlawful one — nor does it authorise force against it.",
+  "body": [
+   {
+    "t": "p",
+    "x": "On July 20, thousands of students marching under the banner of the Cockroach Janta Party (CJP) attempted to reach Parliament to demand the resignation of Education Minister Dharmendra Pradhan over the cancellation of the NEET 2026 examination. The Delhi Police, having denied permission for the march, responded with tear gas and baton charges. According to the police, 118 personnel and 60 protesters were injured, while the organisers claimed that nearly 150 demonstrators sustained injuries. Videos that subsequently circulated on social media show police personnel striking protesters, although none appear to depict protesters initiating violence."
+   },
+   {
+    "t": "p",
+    "x": "Denial of permission does not make a protest illegal"
+   },
+   {
+    "t": "p",
+    "x": "Under Indian law, the absence of police permission does not by itself convert a peaceful assembly into an unlawful one, nor does it authorise force against it. In Himat Lal K. Shah v. Commissioner of Police, 1972 SCC OnLine SC 423, the Supreme Court held that authorities can regulate the time, place and manner of a public meeting but cannot impose a blanket prohibition on assembly in public spaces. The right to assemble flows directly from Article 19(1)(b) of the Constitution of India, and a licensing rule that gives police unguided discretion to refuse permission altogether is unconstitutional."
+   },
+   {
+    "t": "p",
+    "x": "This was reaffirmed and sharpened in In Re: Ramlila Maidan Incident, 2012 SCC OnLine SC 186, arising from the midnight police action against Baba Ramdev's supporters. The Court held that the right to assemble and protest peacefully is a fundamental right that cannot be curtailed by arbitrary executive action, and that even where an assembly turns technically “unlawful” for want of permission, the state's response must still be lawful, proportionate and directed only at restoring order and not at punishing the assembly for existing. The Court awarded compensation to victims of that crackdown, holding the state answerable in public law for the manner of dispersal, independent of whether the assembly had permission."
+   },
+   {
+    "t": "p",
+    "x": "In Mazdoor Kisan Shakti Sangathan v. Union of India (Writ Petition (Civil) No. 1153 of 2017), the Court went further and struck down a blanket ban on protests at Delhi's Boat Club and Jantar Mantar, directing the police and NDMC to frame fresh guidelines that accommodate protest rather than exclude it, holding that the national capital cannot be made a “protest-free zone” for administrative convenience. In Anita Thakur and Ors. v. Ersus Govt. of J&K and Ors. (SC) (MANU/SC/0915/2016), the migrants of State of Jammu & Kashmir State had planned to take out a peaceful protest March up to Delhi for ventilating their grievances. However, when reached near Katra in Jammu & Kashmir, Respondent authorities through their police personnel had beaten up and manhandled these migrants in a most brutal and barbaric manner. Petitioners alleged that, this incident violated their rights guaranteed to them under Articles 14, 19, 21 and 22 of Constitution of The Hon’ble Court awarded compensation holding that the use of disproportionate force against a peaceful demonstration violated Article 19(1)(b) of the Constitution of India."
+   },
+   {
+    "t": "p",
+    "x": "In Amit Sahni v. Commissioner of Police (AIR 2020 SC 4704), the Shaheen Bagh case is often cited by police to restrict protests, but even there the Court did not hold that unpermitted assembly justifies force. It held only that indefinite blockage of a public road is not protected, and left peaceful assembly elsewhere untouched."
+   },
+   {
+    "t": "p",
+    "x": "Taken together, the law is well settled that denial of permission may make organisers liable to be asked to disperse or relocate, and in rare cases prosecuted for unlawful assembly under Section 189 of the Bharatiya Nyaya Sanhita (the old Section 143 IPC) but it does not on its own entitle police to lathi-charge or tear-gas a crowd that has offered no violence."
+   },
+   {
+    "t": "p",
+    "x": "The procedure police must follow before using force."
+   },
+   {
+    "t": "p",
+    "x": "Indian law does not permit police to escalate straight to force, let alone lethal force, against an assembly. Sections 148 to 150 of the Bharatiya Nagarik Suraksha Sanhita, 2023 (corresponding to Sections 129 to 131 of the erstwhile CRPC, 1973) prescribe a mandatory and graduated procedure for dispersing an unlawful assembly. The statutory framework requires the authorities to follow a sequential escalation.  The police can move to the next stage only if the previous measure fails to disperse the assembly."
+   },
+   {
+    "t": "p",
+    "x": "1.Command to disperse. An Executive Magistrate, the officer-in-charge of a police station, or an officer not below the rank of sub-inspector must first order the assembly of five or more persons whose conduct threatens public peace to disperse. This command must be audible and comprehensible to the crowd, ordinarily in the local language."
+   },
+   {
+    "t": "p",
+    "x": "2.Clear, prior warning before any force. Established police manual practice, endorsed by courts, requires a bugle or whistle call and the raising of a riot flag to signal that a lathi charge or crowd-control measure is imminent. This warning gives the assembly a reasonable opportunity to disperse before any force is used."
+   },
+   {
+    "t": "p",
+    "x": "3.Minimum first (Section 148). Only if the assembly fails to disperse after the warning and lawful command may the police use force to disperse it. Even then, the force used must be the minimum necessary. The police must first resort to measures such as lathi charges, mild physical restraint, or barriers before using more severe methods like tear gas."
+   },
+   {
+    "t": "p",
+    "x": "4.Escalation to armed force requires the highest-ranking magistrate present (Section 149). Armed force can be used only when the assembly cannot otherwise be dispersed and public security genuinely requires it - a materially higher threshold than mere non-dispersal. Even then, the magistrate must use as little force, and cause as little injury to person and property, as is consistent with dispersing the assembly and apprehending the offenders."
+   },
+   {
+    "t": "p",
+    "x": "5.Firing as an absolute last resort. Where firearms are used, the National Human Rights Commission (NHRC) Guidelines require that they be used only as a last resort, after all lesser measures have failed. A final warning must be given before firing, only the minimum force necessary may be used, and firing must cease as soon as the threat ends. The reasons for ordering the firing must also be recorded in writing. In every case of death or grievous injury, an FIR must be registered, a magisterial inquiry conducted, and the incident reported to the State or National Human Rights Commission. Under the NHRC Guidelines, 1997, every police firing resulting in death must be reported within 48 hours and followed by a judicial inquiry."
+   },
+   {
+    "t": "p",
+    "x": "6.The assembly must pose a real danger and not merely lack permission. The Hon'ble Supreme Court in Ramlila Maidan has categorically held that a peaceful assembly, even if it is technically unlawful for want of prior permission, cannot be dispersed by the use of force. The use of force under Sections 148 to 150 of the Bharatiya Nagarik Suraksha Sanhita, 2023 (formerly Sections 129 to 131 CrPC) can be justified only by the conduct of the assembly, such as violence or a deliberate refusal to disperse despite a lawful direction, and not merely because the assembly was held without permission."
+   },
+   {
+    "t": "p",
+    "x": "How this exposes individual police personnel"
+   },
+   {
+    "t": "p",
+    "x": "Once the statutory protection is lost, several consequences follow for the officers and the chain of command that ordered the action:"
+   },
+   {
+    "t": "p",
+    "x": "1.Criminal prosecution. Police officers who use unlawful or excessive force may be prosecuted under the Bharatiya Nyaya Sanhita, 2023. Depending on the facts of the case, they may be charged with murder under Section 103 (formerly Section 302 IPC), culpable homicide not amounting to murder under Section 105 (formerly Section 304 IPC), voluntarily causing hurt or grievous hurt under Sections 115 to 118, or offences relating to wrongful restraint or wrongful confinement. Such acts are not protected by the immunity contemplated under Section 132 of the Code. In Om Prakash & Ors. v. State of Jharkhand (2012) 12 SCC 72, the Hon'ble Supreme Court refused to extend protection to police officers accused of a fake encounter killing, holding that “trigger-happy police personnel” who eliminate persons under the guise of lawful action are not entitled to immunity and that officers who abuse the power to use force must face the full consequences of criminal law."
+   },
+   {
+    "t": "p",
+    "x": "2.Compensation to victims in constitutional writ jurisdiction. Independent of any criminal prosecution, the State may be directed to pay compensation to injured protesters or to the families of those who have died for the violation of their fundamental rights. This public law remedy, evolved by the Hon'ble Supreme Court in Nilabati Behera v. State of Orissa (1993), has been consistently applied in cases involving excessive use of force by the police, including Ramlila Maidan and Anita Thakur. The victim is not required to await the outcome of, or secure a conviction in, a criminal prosecution before seeking compensation for the violation of Article 21 of the Constitution"
+   },
+   {
+    "t": "p",
+    "x": "3.Departmental and command liability. Apart from the officer who actually used force, the Magistrate or senior police officer who ordered or authorised a disproportionate use of force may also face departmental proceedings, suspension, and personal accountability. Courts have recognised that responsibility does not rest solely with the officer on the ground but also extends to the authority that planned, directed, or authorised the operation."
+   },
+   {
+    "t": "p",
+    "x": "4.Loss of the “superior orders” defence. This is where Nuremberg Principle IV becomes directly relevant to individual accountability."
+   },
+   {
+    "t": "p",
+    "x": "Nuremberg Principle IV"
+   },
+   {
+    "t": "p",
+    "x": "International law imposes an additional layer of personal accountability on the officers who actually use force. Nuremberg Principle IV provides that “the fact that a person acted pursuant to the order of his Government or of a superior does not relieve him from responsibility under international law, provided a moral choice was in fact possible to him.” Thus, an order to lathi-charge or open fire on an unarmed and peaceful crowd does not, by itself, absolve the officer who carries out such an unlawful order where compliance was not inevitable. At best, acting under orders may be a mitigating factor in sentencing; it does not extinguish legal responsibility. Indian courts have adopted a similar approach, holding that an officer cannot escape liability merely by relying on the instructions of a superior where the act itself is unlawful, particularly when the statutory safeguards governing the use of force have been disregarded."
+   },
+   {
+    "t": "p",
+    "x": "The bottom line"
+   },
+   {
+    "t": "p",
+    "x": "Delhi Police's refusal to grant permission for the July 20 march may expose the organisers to action under public order laws. However, it does not authorise the use of tear gas or baton charges against a peaceful assembly. Any use of force is governed by the strict procedure prescribed under Sections 148 to 150 of the Bharatiya Nagarik Suraksha Sanhita, 2023. Failure to follow this procedure may expose the State to liability for compensation and the officers concerned to criminal and departmental action. The Chief Justice's refusal to urgently examine the video evidence has, for the present, left unanswered the question whether these statutory safeguards were complied with."
+   }
+  ]
+ },
+ "police-encounters": {
+  "title": "WHEN THE STATE KILLS WITHOUT A TRIAL: A LEGAL EXAMINATION OF POLICE ENCOUNTERS IN INDIA",
+  "category": "Criminal Law",
+  "date": "2026",
+  "author": "Adv. Pritesh Kumar, Partner",
+  "cite": "",
+  "standfirst": "The term “encounter” finds no place in any Indian statute. What the Constitution, the Sanhitas and the NHRC guidelines actually permit.",
+  "body": [
+   {
+    "t": "h",
+    "x": "INTRODUCTION"
+   },
+   {
+    "t": "p",
+    "x": "India’s criminal justice system is founded on the principle that no person shall be deprived of life or personal liberty except by procedure established by law. Despite this constitutional guarantee, encounter killings continue to occur in the course of law enforcement. In such cases, police officers kill a suspect in circumstances described as an act of self-defence, but which are often alleged to be extra-judicial executions carried out without trial, without charge, and without due process."
+   },
+   {
+    "t": "p",
+    "x": "The term “encounter” finds no place in any Indian statute. It is a colloquial expression commonly used by law enforcement agencies and the media to describe a confrontation, whether genuine or alleged, between the police and a suspect resulting in the suspect's death."
+   },
+   {
+    "t": "h",
+    "x": "THE CONSTITUTIONAL FRAMEWORK: THE RIGHT TO LIFE AND ITS GUARDIANS"
+   },
+   {
+    "t": "p",
+    "x": "Article 21 of the Constitution of India provides that ‘No person shall be deprived of his life or personal liberty except according to procedure established by law.’ In the landmark judgement of Hon’ble Supreme court in Maneka Gandhi v. Union of India AIR 1978 SC 597 reinterpreted this provision and held that the ‘procedure’ contemplated must be fair, just, and reasonable. It is not sufficient that the legislature prescribes any procedure whatsoever. The Supreme Court has consistently held that Article 21 includes within it the right to a fair trial  and the right not to be subjected to arbitrary, unreasonable state action that extinguishes life."
+   },
+   {
+    "t": "p",
+    "x": "Article 14 guarantees equality before law and the equal protection of laws. The rule of law requires that the State itself be bound by law. A system that allows police officers to kill at will, dressed up as ‘encounters’, creates a class of persons stripped of the protection of Article 14. They are treated not as citizens entitled to the presumption of innocence but as legitimate targets. The arbitrariness inherent in the practice violates the equality guarantee."
+   },
+   {
+    "t": "p",
+    "x": "The rights under Part III are not water-tight compartments and must be read together. Where the State eliminates a person who has surrendered, and thereby extinguishes that person’s capacity to ever assert any constitutional right, there is a simultaneous violation of Articles 14, 19 and 21."
+   },
+   {
+    "t": "h",
+    "x": "THE STATUTORY FRAMEWORK: WHEN MAY POLICE USE LETHAL FORCE?"
+   },
+   {
+    "t": "p",
+    "x": "A police officer can justify causing the death of a suspect only in limited situations. The right of private defence under Sections 96 to 106 of the Indian Penal Code, 1860 now found in the Bharatiya Nyaya Sanhita, 2023 applies only against an immediate threat. The force used must be necessary and proportionate. This right ends when the suspect surrenders, drops the weapon, or comes into police custody. Any killing after that amounts to homicide."
+   },
+   {
+    "t": "p",
+    "x": "Section 46 of the Code of Criminal Procedure, 1973 now Section 43 of the Bharatiya Nagarik Suraksha Sanhita, 2023 permits the use of necessary force only against a person resisting or evading arrest. It does not permit the use of lethal force against a person who has already surrendered. The law also prohibits causing the death of a person unless the person is accused of an offence punishable with death or imprisonment for life."
+   },
+   {
+    "t": "h",
+    "x": "THE NHRC GUIDELINES ON ENCOUNTER DEATHS"
+   },
+   {
+    "t": "p",
+    "x": "The National Human Rights Commission has dealt with encounter deaths since 1996. In a complaint from Andhra Pradesh, the Commission held that the killing of a person not involved in any pending criminal case was wholly unjustified, and awarded compensation to the family. Following that decision, the then Chairperson, Hon’ble Justice M.N. Venkatachaliah, addressed a letter dated 29th March 1997 to the Chief Ministers of all States and Union Territories. The letter recorded that Indian law confers on the police no right to take away the life of another person, and that a death so caused amounts to culpable homicide unless it is shown to fall within the right of private defence or within Section 46 of the Code."
+   },
+   {
+    "t": "p",
+    "x": "Also Read: (NHRC calls for report from the Bihar Government regarding alleged ‘fake encounter’ deaths in the State)"
+   },
+   {
+    "t": "p",
+    "x": "The procedure prescribed by the 1997 letter is threefold. Information of an encounter death must be entered by the officer in charge of the police station in the appropriate register. That information must be treated as sufficient to suspect the commission of a cognizable offence, and immediate steps must be taken to investigate. Since the officers of the police station concerned are themselves members of the encounter party, the case must be handed over to an independent agency such as the State CID."
+   },
+   {
+    "t": "p",
+    "x": "The guidelines were revised on 2nd December 2003. Every State was required to inform the National Human Rights Commission about every death caused in a police encounter. The Director General of Police was also required to send a half yearly report containing details of all deaths caused during police action. In 2010 the Commission added that a magisterial inquiry must be held in every case of death occurring in the course of police action, as expeditiously as possible and preferably within three months; that prompt prosecution and disciplinary action must follow where the inquiry or investigation discloses guilt; and that no out-of-turn promotion or instant gallantry award is to be conferred on the officers concerned soon after the occurrence. The Commission presently requires every death in police action, including an encounter, to be reported within forty-eight hours, followed by the post-mortem report, the forensic reports, the magisterial enquiry report and the findings of the independent investigation."
+   },
+   {
+    "t": "p",
+    "x": "Also Read:(NHRC Guidelines; NHRC Investigation Division)"
+   },
+   {
+    "t": "p",
+    "x": "These guidelines have judicial force. In People’s Union for Civil Liberties v. State of Maharashtra, (2014) 10 SCC 635, the Hon'ble Supreme Court converted them into binding directions, issued sixteen mandatory requirements applicable to every case of death in police action, and made non-compliance punishable as contempt of court."
+   },
+   {
+    "t": "h",
+    "x": "LANDMARK JUDICIAL PRONOUNCEMENTS"
+   },
+   {
+    "t": "p",
+    "x": "PUCL v. State of Maharashtra (2014) 10 SCC 635: The Sixteen Commandments"
+   },
+   {
+    "t": "p",
+    "x": "This is the locus classicus on encounter deaths in India. A three-judge bench of the Supreme Court, examining 99 alleged fake encounter killings by the Mumbai Police between 1995 and 1997, issued sixteen mandatory directions that now govern every case of death in police action in India. The key directions include:"
+   },
+   {
+    "t": "p",
+    "x": "(i) All cases of death in police action must have an FIR registered and referred for a magisterial inquiry under Section 176 CrPC. An independent investigation is mandatory."
+   },
+   {
+    "t": "p",
+    "x": "(ii) The investigation must be conducted by an independent CID team, not by the same police station."
+   },
+   {
+    "t": "p",
+    "x": "(iii) No out-of-turn promotions or gallantry awards shall be given to officers involved in an encounter until the magisterial inquiry concludes in their favour."
+   },
+   {
+    "t": "p",
+    "x": "(iv) If the inquiry reveals a prima facie case of homicide, criminal prosecution must follow."
+   },
+   {
+    "t": "p",
+    "x": "(v) The next of kin of the deceased must be informed promptly and given access to legal representation."
+   },
+   {
+    "t": "p",
+    "x": "The Court observed that the right to life is inalienable and the State cannot bypass the criminal justice system to administer what amounts to capital punishment without trial. The guidelines apply uniformly across India and cannot be waived by any State government."
+   },
+   {
+    "t": "p",
+    "x": "Om Prakash v. State of Jharkhand (2012) 12 SCC 72"
+   },
+   {
+    "t": "p",
+    "x": "In this landmark judgement, the Hon’ble Supreme Court took a firm view that “It is not the duty of the police officers to kill the accused merely because he is a dreaded criminal. Undoubtedly, the police have to arrest the accused and put them up for trial. This Court has repeatedly admonished trigger-happy police personnel, who liquidate criminals and project the incident as an encounter.” The Court held that even where a person has a criminal background, he retains the right to life guaranteed by Article 21 and cannot be gunned down without due process."
+   },
+   {
+    "t": "p",
+    "x": "Prakash Kadam v. Ramprasad Vishwanath Gupta (2011) 6 SCC 189"
+   },
+   {
+    "t": "p",
+    "x": "The Hon’ble Apex Court in this case, dealing with a staged encounter, held that police officers who commit murders under the guise of an “encounters' deserve to be treated as murderers. The Court observed that “If a fake encounter is proved against the police personnel, in our opinion they must be given the death sentence treating it as the rarest of rare cases. State-sponsored terrorism cannot be tolerated.” The Court further held that the right of private defence cannot be pleaded where the police had the opportunity to arrest the person but chose to eliminate him instead."
+   },
+   {
+    "t": "p",
+    "x": "Extra Judicial Execution Victim Families Association v. Union of India (2016) 14 SCC 536"
+   },
+   {
+    "t": "p",
+    "x": "In a landmark ruling arising from encounter killings in Manipur, the Hon’ble Supreme Court held that every death in police action, even in areas under the Armed Forces (Special Powers) Act, 1958, is subject to inquiry under Section 176 CrPC and investigation under Section 154 CrPC. The Court categorically ruled that there is no concept of ‘free fire zones’ in the Constitution of India and that the right to life under Article 21 does not admit of any geographical exception. Even suspected militants and insurgents are entitled to due process before the State takes their lives."
+   },
+   {
+    "t": "p",
+    "x": "D.K. Basu v. State of West Bengal (1997) 1 SCC 416"
+   },
+   {
+    "t": "p",
+    "x": "Although primarily a case about custodial deaths and torture rather than encounter killings, D.K. Basu established the constitutional principle that the duty of the police is not to punish but to produce the accused before the competent court. The judgment laid down specific safeguards for persons in police custody and held that violation of these safeguards attracts personal liability of the officers concerned. The principle that arrests do not confer on police the power of summary punishment is foundational to any discussion of encounter killings."
+   },
+   {
+    "t": "p",
+    "x": "Nilabati Behera v. State of Orissa, (1993) 2 SCC 746"
+   },
+   {
+    "t": "p",
+    "x": "The Hon'ble Supreme Court held that where a person dies in the custody of the State, the State is under a public law obligation to compensate the next of kin, and that such a claim lies under Article 32 and Article 226 independently of any private law remedy. The Court rejected the plea of sovereign immunity, holding that it has no application where the fundamental right to life is infringed by the State. The judgment is the foundation of the proposition that a death caused by State agency carries an enforceable constitutional consequence and is not a matter to be left to the ordinary law of tort."
+   },
+   {
+    "t": "p",
+    "x": "Sathyavani Ponrani v. Samuel Raj, CRL.O.P.(MD)NO.5474 OF 2010 (Madras High Court)"
+   },
+   {
+    "t": "p",
+    "x": "The Madras High Court held that a free and fair investigation is a right flowing from Articles 14, 21 and 39-A, that it is the duty of the State to secure it, and that the victim or a person genuinely representing the victim has locus to participate in the prosecution. Applied to a death in police action, the principle is that the next of kin are not passive bystanders but persons entitled to be heard on the conduct of the investigation."
+   },
+   {
+    "t": "h",
+    "x": "RECENT ENCOUNTER KILLINGS ACROSS INDIAN STATES: A FACTUAL SURVEY"
+   },
+   {
+    "t": "p",
+    "x": "Encounter killings are not confined to any single State or political dispensation. A survey of recent incidents shows the practice spread across the country. A representative, non-exhaustive selection is set out below, State wise."
+   },
+   {
+    "t": "p",
+    "x": "1. Bihar"
+   },
+   {
+    "t": "p",
+    "x": "On 17th June 2026, Bharat Bhushan Tiwari, a 28-year-old resident of Bilauti village, Bhojpur district, was shot dead by a joint team of the Shahpur police and the Special Task Force. Tiwari was a local activist who had been agitating the grievances of flood-displaced residents, and had earlier posted videos on social media in which he displayed an unlicensed pistol and threatened local officials. On 16 June the district police publicly stated that he was mentally unstable and that they were attempting to disarm him and arrange his treatment. On the following day the police stated that he fired on the team and was killed in retaliatory action. His family, and a Facebook Live video recorded shortly before the shooting, indicate that he had thrown down his pistol and surrendered before the firing."
+   },
+   {
+    "t": "p",
+    "x": "Enquiry status: Four police personnel were suspended within two days of the incident. On the complaint of the deceased's mother, an FIR for murder was registered on 23 June 2026 against five police personnel, including the Sub-Divisional Police Officer, Jagdishpur, and the then Station House Officer, Shahpur. The Bihar Government ordered an independent judicial inquiry under a retired High Court judge."
+   },
+   {
+    "t": "p",
+    "x": "A public interest litigation seeking a CBI probe was declined by the Supreme Court on 30 June 2026, with liberty to the petitioner to approach the Patna High Court. The judicial inquiry and the investigation into the FIR remain pending."
+   },
+   {
+    "t": "p",
+    "x": "Also Read: (Bihar CM orders judicial inquiry into alleged fake encounter of Bharat Bhushan Tiwari) & (Supreme Court Refuses To Entertain PIL For Probe Into Bharat Bhushan Tiwari Encounter Killing In Bihar Debby Jain)"
+   },
+   {
+    "t": "p",
+    "x": "2. Maharashtra"
+   },
+   {
+    "t": "p",
+    "x": "On 23rd September 2024, Akshay Shinde, the accused in the Badlapur school sexual assault case, was shot dead while being taken from Taloja jail for questioning. The police stated that Shinde snatched a pistol and fired at an officer, who shot him in self-defence."
+   },
+   {
+    "t": "p",
+    "x": "Enquiry status: On a petition filed by the deceased’s father, the Bombay High Court directed a magisterial enquiry. The enquiry report placed before the Court in January 2025 held five police personnel responsible, recorded that the force used was unjustified, and noted that the fingerprints of the deceased were not found on the weapon. By order dated 7th April 2025 the High Court directed the registration of an FIR against the five officers and the constitution of a Special Investigation Team, observing that a refusal to investigate a crime undermines the rule of law and erodes public faith in justice. On 5th May 2025 the Supreme Court modified that order to the extent that the Special Investigation Team would function under the aegis of the Director General of Police rather than the officer named by the High Court. This is one of the few recent matters in which an independent investigation has actually been ordered against the officers concerned."
+   },
+   {
+    "t": "p",
+    "x": "Also Read: (Badlapur ‘Fake Encounter’ Case: Magistrate Enquiry Concludes 5 Policemen Responsible For Accused's Death)"
+   },
+   {
+    "t": "p",
+    "x": "(Bombay HC Orders SIT Probe Into Five Policemen Involved In Badlapur ‘Fake’ Encounter, Says Can’t Ignore State's Reluctance To Register FIR)"
+   },
+   {
+    "t": "p",
+    "x": "(Badlapur ‘Fake’ Encounter : Supreme Court Modifies Bombay HC Order On Probe Against Policemen, Directs DGP To Form)"
+   },
+   {
+    "t": "p",
+    "x": "3. Telangana"
+   },
+   {
+    "t": "p",
+    "x": "On 6th December 2019, all four accused in the gang rape and murder of a veterinarian in Hyderabad (the Disha case) were shot dead by the Cyberabad police, who stated that the men attacked the escort party and attempted to flee."
+   },
+   {
+    "t": "p",
+    "x": "Enquiry status: A Supreme Court appointed inquiry commission headed by former Supreme Court Judge Hon'ble Justice V. S. Sirpurkar found that the police version of the incident was not believable. The Commission concluded that the four men were deliberately shot with the intention to kill them. It recommended departmental action and criminal prosecution against ten police personnel. This is one of the very few recent encounter cases in which a court appointed inquiry has given a clear finding against the police."
+   },
+   {
+    "t": "p",
+    "x": "Also Read: (Hyderabad Encounter Fake, Police Version Concocted : Judicial Inquiry Commission Recommends Action Against 10 Cops For Murder)"
+   },
+   {
+    "t": "p",
+    "x": "4. Chhattisgarh"
+   },
+   {
+    "t": "p",
+    "x": "Chhattisgarh has recorded the highest number of deaths in security operations of any State in recent years, the bulk of them in anti-Naxal operations in the Bastar and Abujhmarh regions. On 21st May 2025, twenty-seven persons were killed in a single operation in Narayanpur district, among them the General Secretary of the CPI (Maoist). The operation was announced by the Union Home Minister as a landmark achievement in the elimination of Naxalism. Human Rights groups have raised concern that a proportion of those killed in such operations, including women cadres, may not have been combatants at the time."
+   },
+   {
+    "t": "p",
+    "x": "Also Raed: ( Neutralising 27 dreaded Maoists a landmark achievement in eliminating Naxalism says HM Amit Shah)"
+   },
+   {
+    "t": "p",
+    "x": "Enquiry status: In one representative case concerning the death of an alleged Maoist Central Committee member, the Chhattisgarh High Court declined to order a Special Investigation Team probe, holding that anti-Naxal operations are part of routine counter-insurgency measures not ordinarily amenable to independent investigation absent exceptional circumstances, and that the State had complied with the PUCL and NHRC guidelines. Individual anti-Naxal encounters are not, as a rule, followed by an independent probe, and the enquiry status of most such incidents remains unknown to the public."
+   },
+   {
+    "t": "p",
+    "x": "Also Read: (SIT Probe Into 'Anti-Naxal Operations' By Police Undermines Federal Structure, Permitted Only In Exceptional Cases: Chhattisgarh High Court)"
+   },
+   {
+    "t": "p",
+    "x": "5. Uttar Pradesh"
+   },
+   {
+    "t": "p",
+    "x": "Uttar Pradesh has recorded the largest number of encounter deaths of any State since 2017. According to a State government statement issued on 14th October 2025, the police conducted 15,726 encounters in the eight and a half years since March 2017, in which 256 persons were killed, 10,324 were injured and 31,960 were arrested. The statement presented these figures as evidence of a zero-tolerance policy and as a statistical success."
+   },
+   {
+    "t": "p",
+    "x": "The injury figure deserves attention. It reflects the practice sometimes described as a half encounter, where a suspect is shot in the leg rather than killed. The consequence is permanent injury inflicted outside any judicial process, while the reporting and inquiry obligations that attach to a death in police action are not triggered at all."
+   },
+   {
+    "t": "p",
+    "x": "Also Read: (Over 15,000 police encounters since 2017, 256 'hardened criminals' eliminated in Uttar Pradesh)"
+   },
+   {
+    "t": "p",
+    "x": "Enquiry status: The PUCL guidelines require an FIR and a magisterial inquiry in every case of death in police action, and the Hon'ble Supreme Court has separately examined encounter related deaths arising out of the Atiq Ahmed matter. The outcome of magisterial inquiries into individual Uttar Pradesh encounters is rarely made public, and the enquiry status of the great majority of the State's encounter deaths remains unknown."
+   },
+   {
+    "t": "p",
+    "x": "Also Read: (Judicial Intervention In Encounters In India)"
+   },
+   {
+    "t": "p",
+    "x": "6. Jammu and Kashmir, the North East and other States"
+   },
+   {
+    "t": "p",
+    "x": "Deaths in police and security operations have also been reported from Jammu and Kashmir, Assam, Rajasthan, West Bengal, Delhi and Haryana. There is no consolidated official all-India count of encounter deaths. The nearest official measure is the case data maintained by the National Human Rights Commission under the head \"Death in Police Encounter\", referred to earlier in this article."
+   },
+   {
+    "t": "p",
+    "x": "Enquiry status: In several such cases families have alleged that post-mortems were conducted in their absence and that bodies were disposed of under police supervision without consent, circumstances that themselves obstruct an independent enquiry. Where the death occurs in an area under the Armed Forces (Special Powers) Act, 1958, a further obstacle arises. Section 6 of that Act bars prosecution without the previous sanction of the Central Government. On 17 September 2024 the Supreme Court closed the criminal proceedings against thirty Army personnel arising out of the killing of civilians at Oting in Nagaland in December 2021, sanction having been declined, while leaving it open for the proceedings to revive if sanction is granted at any stage."
+   },
+   {
+    "t": "p",
+    "x": "Also Read: (Nagaland Civilian Killings: Supreme Court Closes FIR Against 30 Indian Army Personnel For Lack Of Sanctions Under AFSPA)"
+   },
+   {
+    "t": "h",
+    "x": "PUBLIC AND MEDIA RESPONSE: THE POPULAR EULOGISING OF ENCOUNTERS"
+   },
+   {
+    "t": "p",
+    "x": "A recurring feature of encounter killings in India is the public approval they receive before any inquiry is conducted. This has a direct bearing on why the practice continues despite the judicial principles discussed above. Sections of the public, the press and social media often celebrate encounter killings without waiting for the outcome of any investigation."
+   },
+   {
+    "t": "p",
+    "x": "Following the Hyderabad encounter of December 2019, large crowds gathered at the site to celebrate the police action. They raised slogans, distributed sweets and burst firecrackers. Similar celebrations took place in the victims' neighbourhood and on social media. The Sirpurkar Commission later found that the encounter had been staged. The public response remained unaffected by that finding."
+   },
+   {
+    "t": "p",
+    "x": "Also Read: (Hyderabad Encounter Fake, Police Version Concocted : Judicial Inquiry Commission Recommends Action Against 10 Cops For Murder)"
+   },
+   {
+    "t": "p",
+    "x": "The same pattern was seen after the Badlapur encounter of September 2024. Sweets were distributed and firecrackers burst, and posters were displayed praising the police action. The magisterial enquiry later found the police version to be unsustainable and held five officers responsible."
+   },
+   {
+    "t": "p",
+    "x": "The Bihar case shows the same dynamic working in reverse, and is instructive for that reason. The official response shifted only as the Facebook Live video circulated and public protests intensified. Four officers were suspended within two days, an independent judicial inquiry was announced within four, and the murder FIR against the officers followed on the seventh day. Accountability in that case was a function of the existence of a recording and of sustained public pressure, rather than of the machinery that the Supreme Court and the Commission have prescribed. Where no such recording exists, that machinery is all there is."
+   },
+   {
+    "t": "p",
+    "x": "Encounter statistics have been presented by State police establishments as an achievement in maintaining law and order, alongside recoveries of stolen property and action against organised crime, rather than as incidents requiring independent scrutiny. This was placed before the Supreme Court by the petitioner in the Uttar Pradesh encounter matter, who submitted that the killings were being celebrated as achievements and that the officers concerned were being rewarded with promotions and awards."
+   },
+   {
+    "t": "p",
+    "x": "Also Read: (Encounter Killings In Uttar Pradesh Celebrated As Achievements, Police Officials Given Promotions & Awards: Petitioner Tells Supreme Court)"
+   },
+   {
+    "t": "p",
+    "x": "The attitude is not confined to the public. The Status of Policing in India Report 2025, based on a survey of over eight thousand police personnel across seventeen States and Union Territories by Common Cause and Lokniti-CSDS, records that a substantial section of the force prefers extrajudicial measures to due process, and that a significant proportion consider the killing of dangerous criminals preferable to a legal trial."
+   },
+   {
+    "t": "p",
+    "x": "Also Read: (Status of Policing in India Report 2025:  Police Torture and (Un)Accountability : Common Cause, Executive Summary, SPIR 2025)"
+   },
+   {
+    "t": "p",
+    "x": "Popular culture has strengthened this perception. Several mainstream Hindi and regional films portray police \"encounter specialists\" as heroic figures, and some officers associated with a large number of encounter killings have acquired celebrity status."
+   },
+   {
+    "t": "p",
+    "x": "Legal commentators have noted that this public response is inconsistent with the constitutional position. It has been observed that alleged fake encounters often receive widespread public support, and that some commentators have gone so far as to argue that accused persons should be extra-judicially eliminated. The Supreme Court has repeatedly and expressly rejected such views."
+   },
+   {
+    "t": "p",
+    "x": "Also Read: (Law Relating To Encounter Killings By The Police)"
+   },
+   {
+    "t": "p",
+    "x": "The incidents discussed above reveal a consistent pattern. Public and media approval follows immediately after an encounter. The approval does not depend on the outcome of any inquiry. A subsequent finding that the encounter was staged or excessive rarely receives the same attention as the initial celebration. This imbalance between immediate public approval and delayed legal accountability weakens the constitutional safeguards discussed above."
+   },
+   {
+    "t": "h",
+    "x": "CONCLUSION"
+   },
+   {
+    "t": "p",
+    "x": "The Indian Constitution was born from the experience of colonial repression and was deliberately designed to place the individual against the apparatus of State power. Article 21 is its most powerful guarantee. When the police kill without trial, they do not merely take one life. They challenge the foundational premise of constitutional democracy."
+   },
+   {
+    "t": "p",
+    "x": "The recent Bihar case is a reminder that the encounter problem is not merely historical or geographic. It is present, ongoing, and in need of urgent institutional remedy. The law is clear. The Supreme Court has said it with increasing force and specificity. What remains is the political will to enforce it."
+   },
+   {
+    "t": "p",
+    "x": "A police force that kills for convenience is not a public servant. It is a public danger. A State that permits such killing is not governing. It is tyrannising. The Constitution does not permit either."
+   },
+   {
+    "t": "p",
+    "x": "“A state which denigrates or disregards the right to life of a human being, be it a criminal, convict, undertrial or any other person, puts its constitutional legitimacy in jeopardy.” (See: Prakash Kadam v. Ramprasad Vishwanath Gupta, (2011) 6 SCC 189)"
+   }
+  ]
+ }
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<title>Publication | SPV Legal Advocates</title>
+<meta name="description" content="Legal developments, tax updates and perspectives from SPV Legal Advocates." />
+<link rel="canonical" href="https://www.spvlegal.in/article.html" />
+<meta property="og:image" content="https://www.spvlegal.in/og-image.png" />
+<meta property="og:url" content="https://www.spvlegal.in/article.html" />
+<meta name="twitter:card" content="summary_large_image" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+<style>
+html { scroll-behavior: smooth; }
+body { margin: 0; background: #F7F4EE; font-family: 'DM Sans', system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+a { color: #0B1938; text-decoration: none; }
+a:hover { color: #C9A45C; }
+* { box-sizing: border-box; }
+@keyframes spvRise { from { opacity: 0; transform: translateY(26px); } to { opacity: 1; transform: none; } }
+</style>
+</helmet>
+
+<dc-import name="Nav" theme="dark" active="publications" hint-size="100%,88px"></dc-import>
+<dc-import name="Disclaimer" hint-size="0px,0px"></dc-import>
+
+<article>
+  <section style="position: relative; background: #0B1938; overflow: hidden; padding: clamp(126px, 19vh, 196px) clamp(20px, 4vw, 56px) clamp(48px, 6vw, 84px);">
+    <div style="position: absolute; inset: 0; background: radial-gradient(110% 90% at 80% 0%, rgba(201,164,92,0.13), rgba(11,25,56,0) 62%);"></div>
+    <div style="position: relative; max-width: 900px; margin: 0 auto;">
+      <div style="display: flex; flex-wrap: wrap; gap: 14px; align-items: center; font-size: 9.5px; letter-spacing: 0.22em; animation: spvRise .8s ease both;">
+        <span style="color: #C9A45C;">{{ category }}</span>
+        <span style="width: 16px; height: 1px; background: rgba(247,244,238,0.3);"></span>
+        <span style="color: rgba(247,244,238,0.6);">{{ date }}</span>
+      </div>
+      <h1 style="font-family: 'Cormorant Garamond', serif; font-weight: 300; font-size: clamp(30px, 4.4vw, 58px); line-height: 1.12; letter-spacing: -0.005em; color: #F7F4EE; margin: 26px 0 0; text-wrap: pretty; animation: spvRise .9s ease both; animation-delay: .06s;">{{ title }}</h1>
+      <p style="font-family: 'Cormorant Garamond', serif; font-style: italic; font-weight: 300; font-size: clamp(18px, 1.9vw, 24px); line-height: 1.6; color: rgba(247,244,238,0.72); margin: 28px 0 0; max-width: 60ch; text-wrap: pretty; animation: spvRise .9s ease both; animation-delay: .12s;">{{ standfirst }}</p>
+      <div style="display: flex; flex-wrap: wrap; gap: 10px 26px; align-items: center; margin-top: clamp(30px, 4vw, 44px); padding-top: 26px; border-top: 1px solid rgba(201,164,92,0.3); font-size: 12.5px; color: rgba(247,244,238,0.6); animation: spvRise .9s ease both; animation-delay: .18s;">
+        <span style="color: #C9A45C; letter-spacing: 0.08em;">{{ author }}</span>
+        <sc-if value="{{ hasCite }}" hint-placeholder-val="{{ true }}">
+          <span>{{ cite }}</span>
+        </sc-if>
+      </div>
+    </div>
+  </section>
+
+  <section style="background: #FFFFFF; padding: clamp(48px, 7vw, 96px) clamp(20px, 4vw, 56px) clamp(56px, 8vw, 110px);">
+    <div style="max-width: 780px; margin: 0 auto; display: flex; flex-direction: column;">
+      <sc-for list="{{ body }}" as="block" hint-placeholder-count="8">
+        <div style="{{ block.style }}">{{ block.x }}</div>
+      </sc-for>
+      <div style="margin-top: clamp(44px, 6vw, 72px); padding-top: 30px; border-top: 1px solid #D9DDE5; display: flex; flex-wrap: wrap; gap: 18px 34px; align-items: center; justify-content: space-between;">
+        <p style="font-size: 12.5px; line-height: 1.75; color: #667085; margin: 0; max-width: 62ch;">This article is published for informational purposes only and does not constitute legal advice. For advice on a specific matter, please write to <a href="mailto:contact@spvlegal.in" style="color: #0B1938; border-bottom: 1px solid #C9A45C;">contact@spvlegal.in</a>.</p>
+        <a href="publications.html" style="font-size: 10.5px; letter-spacing: 0.2em; color: #0B1938; border-bottom: 1px solid #C9A45C; padding-bottom: 10px;" style-hover="color: #C9A45C;">← ALL PUBLICATIONS</a>
+      </div>
+    </div>
+  </section>
+
+  <section style="background: #F7F4EE; padding: clamp(52px, 7vw, 96px) clamp(20px, 4vw, 56px); border-top: 1px solid #D9DDE5;">
+    <div style="max-width: 1440px; margin: 0 auto;">
+      <div style="font-size: 10px; letter-spacing: 0.28em; color: #C9A45C; margin-bottom: 30px;">MORE PUBLICATIONS</div>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1px; background: #D9DDE5; border: 1px solid #D9DDE5;">
+        <sc-for list="{{ others }}" as="o" hint-placeholder-count="3">
+          <a href="{{ o.href }}" style="background: #FFFFFF; padding: clamp(26px, 3vw, 40px); display: flex; flex-direction: column; color: #0B1938; transition: background .4s ease;" style-hover="background: #F7F4EE;">
+            <div style="display: flex; gap: 14px; align-items: center; font-size: 9.5px; letter-spacing: 0.2em;">
+              <span style="color: #C9A45C;">{{ o.category }}</span>
+              <span style="width: 14px; height: 1px; background: #D9DDE5;"></span>
+              <span style="color: #667085;">{{ o.date }}</span>
+            </div>
+            <h3 style="font-family: 'Cormorant Garamond', serif; font-weight: 400; font-size: clamp(20px, 2vw, 26px); line-height: 1.25; margin: 20px 0 auto; text-wrap: pretty;">{{ o.title }}</h3>
+            <div style="font-size: 10px; letter-spacing: 0.2em; margin-top: 26px;">READ MORE →</div>
+          </a>
+        </sc-for>
+      </div>
+    </div>
+  </section>
+</article>
+
+<dc-import name="Footer" hint-size="100%,480px"></dc-import>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  state = { data: null, slug: null };
+
+  componentDidMount() {
+    const slug = new URLSearchParams(location.search).get('slug') || 'rule-42-43';
+    fetch('articles.json')
+      .then(r => r.json())
+      .then(data => {
+        this.setState({ data, slug });
+        const a = data[slug];
+        if (a) document.title = a.title.replace(/\s+/g, ' ') + ' | SPV Legal Advocates';
+      })
+      .catch(() => this.setState({ data: {}, slug }));
+  }
+
+  renderVals() {
+    const { data, slug } = this.state;
+    const a = (data && data[slug]) || null;
+    const pStyle = 'font-size: 16.5px; line-height: 1.95; color: #35405A; margin: 0 0 22px; text-wrap: pretty;';
+    const hStyle = "font-family: 'Cormorant Garamond', serif; font-weight: 500; font-size: clamp(23px, 2.4vw, 30px); line-height: 1.25; color: #0B1938; margin: 40px 0 18px; text-wrap: pretty;";
+    const body = a ? a.body.map(b => ({ x: b.x, style: b.t === 'h' ? hStyle : pStyle })) : [];
+    const others = data
+      ? Object.keys(data).filter(k => k !== slug).slice(0, 3).map(k => ({
+          href: 'article.html?slug=' + k,
+          title: data[k].title,
+          category: data[k].category,
+          date: data[k].date
+        }))
+      : [];
+    return {
+      title: a ? a.title : 'Publication',
+      category: a ? a.category : '',
+      date: a ? a.date : '',
+      author: a ? a.author : 'SPV Legal Advocates',
+      cite: a ? a.cite : '',
+      hasCite: !!(a && a.cite),
+      standfirst: a ? a.standfirst : '',
+      body,
+      others
+    };
+  }
+}
+
+</script>
+</body>
+</html>
